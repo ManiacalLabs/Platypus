@@ -1,0 +1,3 @@
+[submodule ".\\Controller\\libs\\SeeedOPL"]
+	path = .\\Controller\\libs\\SeeedOPL
+	url = https://github.com/ManiacalLabs/OPL_Kicad_Library.git
