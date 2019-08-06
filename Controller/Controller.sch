@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -102,4 +102,10 @@ NoConn ~ 7300 3500
 NoConn ~ 7300 3600
 NoConn ~ 7300 3700
 NoConn ~ 4950 4450
+$Sheet
+S 8500 3000 500  650 
+U 5D4AFE00
+F0 "StepDriverX" 31
+F1 "step_driver.sch" 31
+$EndSheet
 $EndSCHEMATC
