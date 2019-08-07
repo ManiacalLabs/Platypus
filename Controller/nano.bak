@@ -175,37 +175,20 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5D4AF94B
-P 3400 1850
+P 3700 1750
 AR Path="/5D499913/5D4AF94B" Ref="#PWR?"  Part="1" 
 AR Path="/5D4AF8B7/5D4AF94B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3400 1600 50  0001 C CNN
-F 1 "GND" H 3405 1677 50  0000 C CNN
-F 2 "" H 3400 1850 50  0001 C CNN
-F 3 "" H 3400 1850 50  0001 C CNN
-	1    3400 1850
+F 0 "#PWR?" H 3700 1500 50  0001 C CNN
+F 1 "GND" H 3705 1577 50  0000 C CNN
+F 2 "" H 3700 1750 50  0001 C CNN
+F 3 "" H 3700 1750 50  0001 C CNN
+	1    3700 1750
 	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:USB_B J?
-U 1 1 5D4B3A3B
-P 3400 2250
-AR Path="/5D499913/5D4B3A3B" Ref="J?"  Part="1" 
-AR Path="/5D4AF8B7/5D4B3A3B" Ref="J?"  Part="1" 
-F 0 "J?" H 3170 2147 50  0000 R CNN
-F 1 "USB_B" H 3170 2238 50  0000 R CNN
-F 2 "" H 3550 2200 50  0001 C CNN
-F 3 " ~" H 3550 2200 50  0001 C CNN
-	1    3400 2250
-	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3700 2150 4750 2150
 Wire Wire Line
 	4750 2250 3700 2250
-Wire Wire Line
-	3300 1850 3400 1850
-Connection ~ 3400 1850
-NoConn ~ 3700 2450
 NoConn ~ 5550 1650
 NoConn ~ 4750 1750
 NoConn ~ 5550 1850
@@ -766,4 +749,25 @@ RST
 Wire Wire Line
 	6900 1400 6800 1400
 Connection ~ 6800 1400
+$Comp
+L UJ2-BH-1-TH:UJ2-BH-1-TH J?
+U 1 1 5D55598E
+P 3300 2150
+F 0 "J?" H 3407 2617 50  0000 C CNN
+F 1 "UJ2-BH-1-TH" H 3407 2526 50  0000 C CNN
+F 2 "UJ2-BH-1-TH:CUI_UJ2-BH-1-TH" H 3300 2150 50  0001 L BNN
+F 3 "" H 3300 2150 50  0001 L BNN
+F 4 "UJ2-BH-1-TH" H 3300 2150 50  0001 C CNN "MPN"
+F 5 "102-3999-ND" H 3300 2150 50  0001 C CNN "DK_PN"
+F 6 "https://www.digikey.com/product-detail/en/cui-inc/UJ2-BH-1-TH/102-3999-ND/6187914" H 3300 2150 50  0001 C CNN "DigiKey Product"
+F 7 "https://www.cui.com/product/resource/digikeypdf/uj2-bh-th.pdf" H 3300 2150 50  0001 C CNN "Datasheet"
+	1    3300 2150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3700 1750 3700 1850
+Wire Wire Line
+	3700 1850 3700 2050
+Connection ~ 3700 1850
+NoConn ~ 3700 2350
 $EndSCHEMATC

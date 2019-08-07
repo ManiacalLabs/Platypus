@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -21,9 +21,9 @@ P 4100 2900
 AR Path="/5D4AFE00/5D4B02F5" Ref="CN?"  Part="1" 
 AR Path="/5D4C0FEF/5D4B02F5" Ref="CN?"  Part="1" 
 AR Path="/5D4C1080/5D4B02F5" Ref="CN?"  Part="1" 
-F 0 "CN?" H 4228 2942 45  0000 L CNN
-F 1 "FEMALE_LEFT" H 4228 2858 45  0000 L CNN
-F 2 "" H 4100 2900 50  0001 C CNN
+F 0 "CN?" H 4000 3350 45  0000 L CNN
+F 1 "FEMALE_LEFT" H 4000 2450 45  0000 L CNN
+F 2 "OPL_Connector:H8-2.54" H 4100 2900 50  0001 C CNN
 F 3 "" H 4100 2900 50  0001 C CNN
 F 4 "F185-1108A1BSYC1" H 4130 3050 20  0001 C CNN "MPN"
 F 5 "320030061" H 4130 3050 20  0001 C CNN "SKU"
@@ -37,9 +37,9 @@ P 5350 2900
 AR Path="/5D4AFE00/5D4B13AD" Ref="CN?"  Part="1" 
 AR Path="/5D4C0FEF/5D4B13AD" Ref="CN?"  Part="1" 
 AR Path="/5D4C1080/5D4B13AD" Ref="CN?"  Part="1" 
-F 0 "CN?" H 5700 2950 45  0000 C CNN
-F 1 "FEMALE_RIGHT" H 5700 2850 45  0000 C CNN
-F 2 "" H 5350 2900 50  0001 C CNN
+F 0 "CN?" H 5300 3350 45  0000 C CNN
+F 1 "FEMALE_RIGHT" H 5500 2450 45  0000 C CNN
+F 2 "OPL_Connector:H8-2.54" H 5350 2900 50  0001 C CNN
 F 3 "" H 5350 2900 50  0001 C CNN
 F 4 "F185-1108A1BSYC1" H 5380 3050 20  0001 C CNN "MPN"
 F 5 "320030061" H 5380 3050 20  0001 C CNN "SKU"
@@ -88,14 +88,6 @@ F 3 "" H 5650 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3800 2950 3800 3050
-Wire Wire Line
-	5650 2750 5950 2750
-Wire Wire Line
-	5650 2850 5950 2850
-Wire Wire Line
-	5650 2950 5950 2950
-Wire Wire Line
-	5650 3050 5950 3050
 $Comp
 L power:GND #PWR?
 U 1 1 5D4B88E4
@@ -241,17 +233,98 @@ Text Notes 3650 3050 0    31   ~ 0
 $Comp
 L Connector:Screw_Terminal_01x04 J?
 U 1 1 5D4D9DAD
-P 6150 2850
+P 6650 2850
 AR Path="/5D4D9DAD" Ref="J?"  Part="1" 
 AR Path="/5D4AFE00/5D4D9DAD" Ref="J?"  Part="1" 
 AR Path="/5D4C1080/5D4D9DAD" Ref="J?"  Part="1" 
-F 0 "J?" H 6230 2842 50  0000 L CNN
-F 1 "MotorConn" H 6230 2751 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 6150 2850 50  0001 C CNN
-F 3 "~" H 6150 2850 50  0001 C CNN
-F 4 "320110143" H 6150 2850 50  0001 C CNN "SKU"
-F 5 "GS019-2.54-04P-5" H 6150 2850 50  0001 C CNN "MPN"
-	1    6150 2850
+F 0 "J?" H 6730 2842 50  0000 L CNN
+F 1 "MotorTerm" H 6730 2751 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 6650 2850 50  0001 C CNN
+F 3 "~" H 6650 2850 50  0001 C CNN
+F 4 "320110143" H 6650 2850 50  0001 C CNN "SKU"
+F 5 "GS019-2.54-04P-5" H 6650 2850 50  0001 C CNN "MPN"
+	1    6650 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L OPL_Connector:DIP-BLACK-MALE-HEADER-VERT_4P-2.54_ J?
+U 1 1 5D567ECA
+P 6750 3450
+F 0 "J?" H 6878 3492 45  0000 L CNN
+F 1 "MotorHeader" H 6878 3408 45  0000 L CNN
+F 2 "" H 6750 3450 50  0001 C CNN
+F 3 "" H 6750 3450 50  0001 C CNN
+F 4 "P125-1104A0BS116A1" H 6780 3600 20  0001 C CNN "MPN"
+F 5 "320020017" H 6780 3600 20  0001 C CNN "SKU"
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2750 6350 2750
+Wire Wire Line
+	6350 2750 6350 3300
+Wire Wire Line
+	6350 3300 6450 3300
+Connection ~ 6350 2750
+Wire Wire Line
+	6350 2750 6450 2750
+Wire Wire Line
+	5650 2850 6300 2850
+Wire Wire Line
+	6300 2850 6300 3400
+Wire Wire Line
+	6300 3400 6450 3400
+Connection ~ 6300 2850
+Wire Wire Line
+	6300 2850 6450 2850
+Wire Wire Line
+	5650 2950 6250 2950
+Wire Wire Line
+	6250 2950 6250 3500
+Wire Wire Line
+	6250 3500 6450 3500
+Connection ~ 6250 2950
+Wire Wire Line
+	6250 2950 6450 2950
+Wire Wire Line
+	5650 3050 6200 3050
+Wire Wire Line
+	6200 3050 6200 3600
+Wire Wire Line
+	6200 3600 6450 3600
+Connection ~ 6200 3050
+Wire Wire Line
+	6200 3050 6450 3050
+Text Notes 4250 2550 0    39   ~ 0
+!Enable
+Text Notes 4250 2650 0    39   ~ 0
+CFG1
+Text Notes 4250 2750 0    39   ~ 0
+CFG2
+Text Notes 4250 2850 0    39   ~ 0
+CFG3
+Text Notes 4250 2950 0    39   ~ 0
+!Reset
+Text Notes 4250 3050 0    39   ~ 0
+!Sleep
+Text Notes 4250 3150 0    39   ~ 0
+Step
+Text Notes 4250 3250 0    39   ~ 0
+Dir
+Text Notes 5000 2550 0    39   ~ 0
+VMot
+Text Notes 5000 2650 0    39   ~ 0
+Gnd
+Text Notes 5000 2750 0    39   ~ 0
+MotB-
+Text Notes 5000 2850 0    39   ~ 0
+MotB+
+Text Notes 5000 2950 0    39   ~ 0
+MotA-
+Text Notes 5000 3050 0    39   ~ 0
+MotA+
+Text Notes 5000 3150 0    39   ~ 0
+Vdd
+Text Notes 5000 3250 0    39   ~ 0
+Gnd
 $EndSCHEMATC
