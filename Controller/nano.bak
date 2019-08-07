@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -581,33 +581,11 @@ F 5 "311020004" H 6380 1450 20  0001 C CNN "SKU"
 	1    6350 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x02_Male J?
-U 1 1 5D4FA25D
-P 7100 1350
-AR Path="/5D499913/5D4FA25D" Ref="J?"  Part="1" 
-AR Path="/5D4AF8B7/5D4FA25D" Ref="J?"  Part="1" 
-F 0 "J?" H 7072 1232 50  0000 R CNN
-F 1 "JMP_RESET" H 7072 1323 50  0000 R CNN
-F 2 "OPL_Connector:H2-2.54" H 7100 1350 50  0001 C CNN
-F 3 "~" H 7100 1350 50  0001 C CNN
-	1    7100 1350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6700 1400 6800 1400
 Wire Wire Line
-	6900 1400 6900 1350
-Wire Wire Line
 	6800 1400 6800 1750
-Connection ~ 6800 1400
-Wire Wire Line
-	6800 1400 6900 1400
 Connection ~ 6800 2150
-Wire Wire Line
-	6900 1250 6900 1200
-Wire Wire Line
-	6900 1200 6800 1200
 $Comp
 L power:GND #PWR?
 U 1 1 5D4FFC86
@@ -621,7 +599,6 @@ F 3 "" H 6800 1200 50  0001 C CNN
 	1    6800 1200
 	-1   0    0    1   
 $EndComp
-Connection ~ 6800 1200
 Wire Wire Line
 	6800 1200 6700 1200
 NoConn ~ 6000 1200
@@ -784,4 +761,9 @@ Wire Wire Line
 	9400 3050 9750 3050
 Wire Wire Line
 	9400 3150 9750 3150
+Text HLabel 6900 1400 2    50   Input ~ 0
+RST
+Wire Wire Line
+	6900 1400 6800 1400
+Connection ~ 6800 1400
 $EndSCHEMATC
