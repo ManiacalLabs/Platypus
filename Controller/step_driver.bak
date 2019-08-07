@@ -74,4 +74,49 @@ F 3 "" H 5650 2150 50  0001 C CNN
 	1    5650 2150
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	3800 2950 3800 3050
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5D4B72EB
+P 6150 2850
+F 0 "J?" H 6178 2826 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 6178 2735 50  0000 L CNN
+F 2 "" H 6150 2850 50  0001 C CNN
+F 3 "~" H 6150 2850 50  0001 C CNN
+	1    6150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2750 5950 2750
+Wire Wire Line
+	5650 2850 5950 2850
+Wire Wire Line
+	5650 2950 5950 2950
+Wire Wire Line
+	5650 3050 5950 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5D4B88E4
+P 5750 3350
+F 0 "#PWR?" H 5750 3100 50  0001 C CNN
+F 1 "GND" H 5755 3177 50  0000 C CNN
+F 2 "" H 5750 3350 50  0001 C CNN
+F 3 "" H 5750 3350 50  0001 C CNN
+	1    5750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2650 5750 2650
+Wire Wire Line
+	5750 2650 5750 3250
+Wire Wire Line
+	5650 3250 5750 3250
+Connection ~ 5750 3250
+Wire Wire Line
+	5750 3250 5750 3350
+Text GLabel 5850 3150 2    31   Input ~ 0
+5V
+Wire Wire Line
+	5850 3150 5650 3150
 $EndSCHEMATC
