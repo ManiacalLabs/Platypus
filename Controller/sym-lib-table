@@ -10,4 +10,5 @@
   (lib (name dk_Barrel-Power-Connectors)(type Legacy)(uri ${KIPRJMOD}/libs/digikey/digikey-symbols/dk_Barrel-Power-Connectors.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri ${KIPRJMOD}/libs/digikey/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
   (lib (name UJ2-BH-1-TH)(type Legacy)(uri ${KIPRJMOD}/libs/CUI/UJ2-BH-1-TH/UJ2-BH-1-TH.lib)(options "")(descr ""))
+  (lib (name tantalum-smd-10uf-10v-10%_avx-a_)(type Legacy)(uri ${KIPRJMOD}/libs/Modified/tantalum-smd-10uf-10v-10%_avx-a_.lib)(options "")(descr ""))
 )

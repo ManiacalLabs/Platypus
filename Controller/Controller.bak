@@ -173,7 +173,7 @@ Text GLabel 3250 2850 2    31   Input ~ 0
 Text Label 1800 2850 0    31   ~ 0
 VIN_12V
 $Comp
-L OPL_Capacitor:TANTALUM-SMD-10UF-10V-10%_AVX-A_ C?
+L tantalum-smd-10uf-10v-10%_avx-a_:TANTALUM-SMD-10UF-10V-10%_AVX-A_ C?
 U 1 1 5D4CEFF0
 P 2950 3000
 AR Path="/5D499913/5D4CEFF0" Ref="C?"  Part="1" 
@@ -196,7 +196,7 @@ Connection ~ 2950 2850
 Wire Wire Line
 	2950 2850 3250 2850
 $Comp
-L OPL_Capacitor:TANTALUM-SMD-10UF-10V-10%_AVX-A_ C?
+L tantalum-smd-10uf-10v-10%_avx-a_:TANTALUM-SMD-10UF-10V-10%_AVX-A_ C?
 U 1 1 5D4D028E
 P 2150 3000
 AR Path="/5D499913/5D4D028E" Ref="C?"  Part="1" 
@@ -666,4 +666,206 @@ Text Label 1450 2900 1    31   ~ 0
 VIN_12V
 Wire Wire Line
 	1450 2900 1450 2600
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D5AC335
+P 4200 5450
+F 0 "H2" H 4300 5499 50  0000 L CNN
+F 1 "Mount" H 4300 5408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4200 5450 50  0001 C CNN
+F 3 "~" H 4200 5450 50  0001 C CNN
+	1    4200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D5AC8F1
+P 4600 5450
+F 0 "H3" H 4700 5499 50  0000 L CNN
+F 1 "Mount" H 4700 5408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4600 5450 50  0001 C CNN
+F 3 "~" H 4600 5450 50  0001 C CNN
+	1    4600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D5ACEBA
+P 5000 5450
+F 0 "H4" H 5100 5499 50  0000 L CNN
+F 1 "Mount" H 5100 5408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5000 5450 50  0001 C CNN
+F 3 "~" H 5000 5450 50  0001 C CNN
+	1    5000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D5AD190
+P 3800 5450
+F 0 "H1" H 3900 5499 50  0000 L CNN
+F 1 "Mount" H 3900 5408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 3800 5450 50  0001 C CNN
+F 3 "~" H 3800 5450 50  0001 C CNN
+	1    3800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5D5AFC2D
+P 3750 5550
+F 0 "#PWR035" H 3750 5300 50  0001 C CNN
+F 1 "GND" V 3755 5422 50  0000 R CNN
+F 2 "" H 3750 5550 50  0001 C CNN
+F 3 "" H 3750 5550 50  0001 C CNN
+	1    3750 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 5550 3800 5550
+Wire Wire Line
+	4200 5550 3800 5550
+Connection ~ 3800 5550
+Wire Wire Line
+	4200 5550 4600 5550
+Connection ~ 4200 5550
+Wire Wire Line
+	4600 5550 5000 5550
+Connection ~ 4600 5550
+$Comp
+L Connector:Conn_01x05_Female J9
+U 1 1 5D5B9335
+P 1900 5200
+F 0 "J9" H 1792 5585 50  0000 C CNN
+F 1 "ConnPi" H 1792 5494 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1900 5200 50  0001 C CNN
+F 3 "~" H 1900 5200 50  0001 C CNN
+	1    1900 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5D5BC623
+P 2200 5200
+F 0 "#PWR033" H 2200 4950 50  0001 C CNN
+F 1 "GND" V 2205 5072 50  0000 R CNN
+F 2 "" H 2200 5200 50  0001 C CNN
+F 3 "" H 2200 5200 50  0001 C CNN
+	1    2200 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 5200 2200 5200
+Text Label 2600 5300 2    31   ~ 0
+GRBL_RX
+Wire Wire Line
+	2600 5300 2100 5300
+Text Label 3050 4900 2    31   ~ 0
+GRBL_TX
+$Comp
+L OPL_Resistor:SMD-RES-1K-1%-1_10W_0603_ R?
+U 1 1 5D5C4586
+P 2800 5250
+AR Path="/5D499913/5D5C4586" Ref="R?"  Part="1" 
+AR Path="/5D4AF8B7/5D5C4586" Ref="R?"  Part="1" 
+AR Path="/5D5C4586" Ref="R7"  Part="1" 
+F 0 "R7" H 2800 5200 45  0000 C CNN
+F 1 "1K" H 2800 5340 45  0000 C CNN
+F 2 "OPL_Resistor:R0603" H 2800 5250 40  0001 C CNN
+F 3 "" H 2800 5250 40  0001 C CNN
+F 4 "RC0603FR-071KL" H 2830 5400 20  0001 C CNN "MPN"
+F 5 "301010298" H 2830 5400 20  0001 C CNN "SKU"
+	1    2800 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-1K-1%-1_10W_0603_ R?
+U 1 1 5D5C71B6
+P 2800 5550
+AR Path="/5D499913/5D5C71B6" Ref="R?"  Part="1" 
+AR Path="/5D4AF8B7/5D5C71B6" Ref="R?"  Part="1" 
+AR Path="/5D5C71B6" Ref="R8"  Part="1" 
+F 0 "R8" H 2800 5500 45  0000 C CNN
+F 1 "2K" H 2800 5640 45  0000 C CNN
+F 2 "OPL_Resistor:R0603" H 2800 5550 40  0001 C CNN
+F 3 "" H 2800 5550 40  0001 C CNN
+F 4 "RC0603FR-072KL" H 2830 5700 20  0001 C CNN "MPN"
+F 5 "301010221" H 2830 5700 20  0001 C CNN "SKU"
+	1    2800 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 5400 2800 5400
+Connection ~ 2800 5400
+Wire Wire Line
+	2800 5100 2800 4900
+Wire Wire Line
+	2800 4900 3050 4900
+$Comp
+L power:GND #PWR034
+U 1 1 5D5CCAC8
+P 2800 5700
+F 0 "#PWR034" H 2800 5450 50  0001 C CNN
+F 1 "GND" V 2805 5572 50  0000 R CNN
+F 2 "" H 2800 5700 50  0001 C CNN
+F 3 "" H 2800 5700 50  0001 C CNN
+	1    2800 5700
+	1    0    0    -1  
+$EndComp
+Text Notes 1800 5000 0    31   ~ 0
+5V
+Text Notes 1800 5100 0    31   ~ 0
+5V
+Text Notes 1750 5200 0    31   ~ 0
+Gnd
+Text Notes 1750 5300 0    31   ~ 0
+Pi TX
+Text Notes 1750 5400 0    31   ~ 0
+Pi RX
+Text Notes 2950 5450 0    31   ~ 0
+5V <-> 3.3V\nLevel Shift
+NoConn ~ 2100 5000
+NoConn ~ 2100 5100
+Wire Notes Line
+	1700 4750 3300 4750
+Wire Notes Line
+	3300 4750 3300 6050
+Wire Notes Line
+	3300 6050 1700 6050
+Wire Notes Line
+	1700 6050 1700 4750
+Text Notes 2100 4700 0    59   ~ 0
+Pi Serial Interface
+Wire Notes Line
+	3450 5650 5350 5650
+Wire Notes Line
+	5350 5650 5350 5300
+Wire Notes Line
+	5350 5300 3450 5300
+Wire Notes Line
+	3450 5300 3450 5650
+Text Notes 4150 5250 0    59   ~ 0
+Pi Mounting
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5D5E24CD
+P 900 2550
+F 0 "FID1" H 985 2596 50  0000 L CNN
+F 1 "Fiducial" H 985 2505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 900 2550 50  0001 C CNN
+F 3 "~" H 900 2550 50  0001 C CNN
+	1    900  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5D5E33A3
+P 900 2750
+F 0 "FID2" H 985 2796 50  0000 L CNN
+F 1 "Fiducial" H 985 2705 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 900 2750 50  0001 C CNN
+F 3 "~" H 900 2750 50  0001 C CNN
+	1    900  2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
