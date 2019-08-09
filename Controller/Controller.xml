@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>G:\dev\Engravinator\Controller\Controller.sch</source>
+    <date>8/8/2019 7:49:47 PM</date>
+    <tool>Eeschema (5.1.2)-2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Controller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Arduino Nano/" tstamps="/5D499913/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nano.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/StepDriverX/" tstamps="/5D4AFE00/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>step_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/StepDriverY/" tstamps="/5D4C1080/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>step_driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>CJ7805</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://file.elecfans.com/web1/M00/91/C3/pIYBAFzT9eOAVwOtACT5SwN81qY206.pdf?filename=CJ7805%28TO-252-2%29+3%25_JCET.pdf</datasheet>
+      <fields>
+        <field name="MPN">CJ7805(TO-252-2)</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4C3827</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <fields>
+        <field name="MPN">TAJA106K010RNJ</field>
+        <field name="SKU">302020011</field>
+      </fields>
+      <libsource lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4CEFF0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <fields>
+        <field name="MPN">TAJA106K010RNJ</field>
+        <field name="SKU">302020011</field>
+      </fields>
+      <libsource lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4D028E</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>TermAux</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">GS019-2.54-04P-5</field>
+        <field name="SKU">320110143</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4D369A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-1K-1%-1_10W_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4DCCF3</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>LASER_PULSE</value>
+      <footprint>OPL_Connector:H2-2.54</footprint>
+      <fields>
+        <field name="MPN">P125-1102A0BS116A1</field>
+        <field name="SKU">320020016</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_2P-2.54_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4EE7E8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>LASER_PWR</value>
+      <footprint>OPL_Connector:H2-2.54</footprint>
+      <fields>
+        <field name="MPN">P125-1102A0BS116A1</field>
+        <field name="SKU">320020016</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_2P-2.54_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4E97DF</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>SERVO_PWM</value>
+      <footprint>OPL_Connector:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020079</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5013A8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>TermLaser</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">GS019-2.54-04P-5</field>
+        <field name="SKU">320110143</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4DF26A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>TermLimit</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">GS019-2.54-04P-5</field>
+        <field name="SKU">320110143</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D512260</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>TermControl</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">GS019-2.54-04P-5</field>
+        <field name="SKU">320110143</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D512CAC</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TermStop</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">GS019-2.54-04P-5</field>
+        <field name="SKU">320110143</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5160BE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PJ-202AH</value>
+      <footprint>digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</footprint>
+      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-202ah.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202ah.pdf</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/product-detail/en/cui-inc/PJ-202AH/CP-202AH-ND/408450</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
+        <field name="Digi-Key_PN">CP-202AH-ND</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="MPN">PJ-202AH</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Barrel-Power-Connectors" part="PJ-202A" description="CONN PWR JACK 2X5.5MM KINKED PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D545F21</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5AC335</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5AC8F1</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5ACEBA</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>Mount</value>
+      <footprint>MountingHole:MountingHole_2.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5AD190</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5E24CD</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D5E33A3</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCU-ATMEGA328P-AU_TQFP32_</value>
+      <footprint>OPL_Integrated_Circuit:TQFP32-0.8-7X7MM</footprint>
+      <fields>
+        <field name="MPN">ATMEGA328P-AU</field>
+        <field name="SKU">310010049</field>
+      </fields>
+      <libsource lib="OPL_Integrated_Circuit" part="MCU-ATMEGA328P-AU_TQFP32_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D499CCE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>INTERFACE-CH340T_SSOP20_</value>
+      <footprint>OPL_Integrated_Circuit:SSOP20-0.65-7.6X5.2MM</footprint>
+      <fields>
+        <field name="MPN">CH340T</field>
+        <field name="SKU">310070026</field>
+      </fields>
+      <libsource lib="OPL_Integrated_Circuit" part="INTERFACE-CH340T_SSOP20_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D49AC4F</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>16MHZ</value>
+      <footprint>OPL_Crystal_Oscillator:X2-SMD-5.0X3.2X1.3MM</footprint>
+      <fields>
+        <field name="MPN">X053201602002</field>
+        <field name="SKU">306010054</field>
+      </fields>
+      <libsource lib="OPL_Crystal_Oscillator" part="SMD-CRYSTAL-16MHZ-8PF-20PPM-40R_2P-5.0X3.2MM_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D49BE16</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>OPL_Crystal_Oscillator:X2-SMD-5.0X3.2X1.3MM</footprint>
+      <fields>
+        <field name="MPN">5032_2P</field>
+        <field name="SKU">306010047</field>
+      </fields>
+      <libsource lib="OPL_Crystal_Oscillator" part="SMD-CRYSTAL-12MHZ-20PF-20PPM-40R_2P-5.0X3.2MM_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4A8B34</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN220</field>
+        <field name="SKU">302010143</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4ABEA2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN220</field>
+        <field name="SKU">302010143</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4ACAB5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>OPL_Capacitor:C0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field5">CC0805KRX7R9BB104</field>
+        <field name="SKU">302010165</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4BD59E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">301010298</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-1K-1%-1_10W_0603_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4DC1D9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_BLUE</value>
+      <footprint>OPL_Optoelectronics:LED-0603</footprint>
+      <fields>
+        <field name="MPN">19-217-BHC-ZL1M2RY-3T</field>
+        <field name="SKU">304090045</field>
+      </fields>
+      <libsource lib="OPL_Optoelectronics" part="SMD-LED-CLEAR-BLUE_0603_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4DFDA7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED_BLUE</value>
+      <footprint>OPL_Optoelectronics:LED-0603</footprint>
+      <fields>
+        <field name="MPN">19-217-BHC-ZL1M2RY-3T</field>
+        <field name="SKU">304090045</field>
+      </fields>
+      <libsource lib="OPL_Optoelectronics" part="SMD-LED-CLEAR-BLUE_0603_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4E0FF9</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220R</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-07220RL</field>
+        <field name="SKU">301010163</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_10W_0603_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4E2240</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4E5A8F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4E5FDE</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <fields>
+        <field name="MPN">TAJA106K010RNJ</field>
+        <field name="SKU">302020011</field>
+      </fields>
+      <libsource lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4E7480</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN220</field>
+        <field name="SKU">302010143</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4F1433</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>22pF</value>
+      <footprint>OPL_Capacitor:C0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN220</field>
+        <field name="SKU">302010143</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4F084E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>OPL_Capacitor:C0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field5">CC0805KRX7R9BB104</field>
+        <field name="SKU">302010165</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4F2ACF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>OPL_Capacitor:C0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field5">CC0805KRX7R9BB104</field>
+        <field name="SKU">302010165</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4F3261</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">301010298</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-1K-1%-1_10W_0603_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4F4CF3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220R</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-07220RL</field>
+        <field name="SKU">301010163</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_10W_0603_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4E2F3F</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>SW_RESET</value>
+      <footprint>OPL_Switch:SW4-SMD-6.0X6.0X5.0MM</footprint>
+      <fields>
+        <field name="MPN">DTSM-62K-S-V-T_R_SN431_</field>
+        <field name="SKU">311020004</field>
+      </fields>
+      <libsource lib="OPL_Switch" part="SMD-SWITCH-TACTILE-SPST-NO_4P-D6.0MM_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D4F85A1</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>ICSP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">P125-12A1BS116A1</field>
+        <field name="SKU">320020077</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D502C92</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-1K-1%-1_10W_0603_" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D50C710</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>UJ2-BH-1-TH</value>
+      <footprint>CUI:CUI_UJ2-BH-1-TH</footprint>
+      <fields>
+        <field name="DK_PN">102-3999-ND</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/digikeypdf/uj2-bh-th.pdf</field>
+        <field name="DigiKey Product">https://www.digikey.com/product-detail/en/cui-inc/UJ2-BH-1-TH/102-3999-ND/6187914</field>
+        <field name="MPN">UJ2-BH-1-TH</field>
+      </fields>
+      <libsource lib="UJ2-BH-1-TH" part="UJ2-BH-1-TH" description=""/>
+      <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
+      <tstamp>5D55598E</tstamp>
+    </comp>
+    <comp ref="CN5">
+      <value>FEMALE_LEFT</value>
+      <footprint>OPL_Connector:H8-2.54</footprint>
+      <fields>
+        <field name="MPN">F185-1108A1BSYC1</field>
+        <field name="SKU">320030061</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-FEMALE-HEADER-VERT_8P-2.54_" description=""/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D4B02F5</tstamp>
+    </comp>
+    <comp ref="CN6">
+      <value>FEMALE_RIGHT</value>
+      <footprint>OPL_Connector:H8-2.54</footprint>
+      <fields>
+        <field name="MPN">F185-1108A1BSYC1</field>
+        <field name="SKU">320030061</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-FEMALE-HEADER-VERT_8P-2.54_" description=""/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D4B13AD</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CS1E470M-CRE54</field>
+        <field name="SKU">302030059</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D4B27F8</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>CFG1</value>
+      <footprint>OPL_Connector:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020079</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_" description=""/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D4BDC37</tstamp>
+    </comp>
+    <comp ref="CN4">
+      <value>CFG1</value>
+      <footprint>OPL_Connector:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020079</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_" description=""/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D4BEA96</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>CFG1</value>
+      <footprint>OPL_Connector:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020079</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_" description=""/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D4BBA78</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>MotorTerm</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">GS019-2.54-04P-5</field>
+        <field name="SKU">320110143</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D4D9DAD</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>MotorHeader</value>
+      <footprint>OPL_Connector:H4-2.54</footprint>
+      <fields>
+        <field name="MPN">P125-1104A0BS116A1</field>
+        <field name="SKU">320020017</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_4P-2.54_" description=""/>
+      <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
+      <tstamp>5D567ECA</tstamp>
+    </comp>
+    <comp ref="CN10">
+      <value>FEMALE_LEFT</value>
+      <footprint>OPL_Connector:H8-2.54</footprint>
+      <fields>
+        <field name="MPN">F185-1108A1BSYC1</field>
+        <field name="SKU">320030061</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-FEMALE-HEADER-VERT_8P-2.54_" description=""/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D4B02F5</tstamp>
+    </comp>
+    <comp ref="CN11">
+      <value>FEMALE_RIGHT</value>
+      <footprint>OPL_Connector:H8-2.54</footprint>
+      <fields>
+        <field name="MPN">F185-1108A1BSYC1</field>
+        <field name="SKU">320030061</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-FEMALE-HEADER-VERT_8P-2.54_" description=""/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D4B13AD</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CS1E470M-CRE54</field>
+        <field name="SKU">302030059</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D4B27F8</tstamp>
+    </comp>
+    <comp ref="CN8">
+      <value>CFG1</value>
+      <footprint>OPL_Connector:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020079</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_" description=""/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D4BDC37</tstamp>
+    </comp>
+    <comp ref="CN9">
+      <value>CFG1</value>
+      <footprint>OPL_Connector:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020079</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_" description=""/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D4BEA96</tstamp>
+    </comp>
+    <comp ref="CN7">
+      <value>CFG1</value>
+      <footprint>OPL_Connector:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020079</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_" description=""/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D4BBA78</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>MotorTerm</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">GS019-2.54-04P-5</field>
+        <field name="SKU">320110143</field>
+      </fields>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D4D9DAD</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>MotorHeader</value>
+      <footprint>OPL_Connector:H4-2.54</footprint>
+      <fields>
+        <field name="MPN">P125-1104A0BS116A1</field>
+        <field name="SKU">320020017</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_4P-2.54_" description=""/>
+      <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
+      <tstamp>5D567ECA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="DIP-BLACK-FEMALE-HEADER-VERT_8P-2.54_">
+      <footprints>
+        <fp>*H8-2.54*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">DIP-BLACK-FEMALE-HEADER-VERT_8P-2.54_</field>
+        <field name="MPN">F185-1108A1BSYC1</field>
+        <field name="SKU">320030061</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_2P-2.54_">
+      <footprints>
+        <fp>*H2-2.54*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIP-BLACK-MALE-HEADER-VERT_2P-2.54_</field>
+        <field name="MPN">P125-1102A0BS116A1</field>
+        <field name="SKU">320020016</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_3P-2.54_">
+      <footprints>
+        <fp>*H3-2.54*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">DIP-BLACK-MALE-HEADER-VERT_3P-2.54_</field>
+        <field name="SKU">320020079</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="BiDi"/>
+        <pin num="2" name="P$2" type="BiDi"/>
+        <pin num="3" name="P$3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="DIP-BLACK-MALE-HEADER-VERT_4P-2.54_">
+      <footprints>
+        <fp>*H4-2.54*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIP-BLACK-MALE-HEADER-VERT_4P-2.54_</field>
+        <field name="MPN">P125-1104A0BS116A1</field>
+        <field name="SKU">320020017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="BiDi"/>
+        <pin num="2" name="P$2" type="BiDi"/>
+        <pin num="3" name="P$3" type="BiDi"/>
+        <pin num="4" name="P$4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Crystal_Oscillator" part="SMD-CRYSTAL-12MHZ-20PF-20PPM-40R_2P-5.0X3.2MM_">
+      <footprints>
+        <fp>*X2-SMD-5.0X3.2X1.3MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">SMD-CRYSTAL-12MHZ-20PF-20PPM-40R_2P-5.0X3.2MM_</field>
+        <field name="MPN">5032_2P</field>
+        <field name="SKU">306010047</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Crystal_Oscillator" part="SMD-CRYSTAL-16MHZ-8PF-20PPM-40R_2P-5.0X3.2MM_">
+      <footprints>
+        <fp>*X2-SMD-5.0X3.2X1.3MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">SMD-CRYSTAL-16MHZ-8PF-20PPM-40R_2P-5.0X3.2MM_</field>
+        <field name="MPN">X053201602002</field>
+        <field name="SKU">306010054</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Integrated_Circuit" part="INTERFACE-CH340T_SSOP20_">
+      <footprints>
+        <fp>*SSOP20-0.65-7.6X5.2MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INTERFACE-CH340T_SSOP20_</field>
+        <field name="MPN">CH340T</field>
+        <field name="SKU">310070026</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CKO" type="output"/>
+        <pin num="2" name="ACT#" type="output"/>
+        <pin num="3" name="TXD" type="output"/>
+        <pin num="4" name="RXD" type="input"/>
+        <pin num="5" name="V3" type="power_out"/>
+        <pin num="6" name="UD+" type="BiDi"/>
+        <pin num="7" name="UD-" type="BiDi"/>
+        <pin num="8" name="GND" type="power_out"/>
+        <pin num="9" name="XI" type="input"/>
+        <pin num="10" name="XO" type="output"/>
+        <pin num="11" name="CTS#" type="input"/>
+        <pin num="12" name="DSR#" type="input"/>
+        <pin num="13" name="RI#" type="input"/>
+        <pin num="14" name="DCD#" type="input"/>
+        <pin num="15" name="DTR#" type="output"/>
+        <pin num="16" name="RTS#" type="output"/>
+        <pin num="17" name="NC" type="unspc"/>
+        <pin num="18" name="R232" type="input"/>
+        <pin num="19" name="VCC" type="power_out"/>
+        <pin num="20" name="NOS#" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Integrated_Circuit" part="MCU-ATMEGA328P-AU_TQFP32_">
+      <footprints>
+        <fp>*TQFP32-0.8-7X7MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCU-ATMEGA328P-AU_TQFP32_</field>
+        <field name="MPN">ATMEGA328P-AU</field>
+        <field name="SKU">310010049</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3(INT1)" type="BiDi"/>
+        <pin num="2" name="PD4(XCK/T0)" type="BiDi"/>
+        <pin num="3" name="GND" type="BiDi"/>
+        <pin num="4" name="VCC" type="BiDi"/>
+        <pin num="5" name="GND" type="BiDi"/>
+        <pin num="6" name="VCC" type="BiDi"/>
+        <pin num="7" name="PB6(XTAL1/TOSC1)" type="BiDi"/>
+        <pin num="8" name="PB7(XTAL2/TOSC2)" type="BiDi"/>
+        <pin num="9" name="PD5(T1)" type="BiDi"/>
+        <pin num="10" name="PD6(AIN0)" type="BiDi"/>
+        <pin num="11" name="PD7(AIN1)" type="BiDi"/>
+        <pin num="12" name="PB0(ICP)" type="BiDi"/>
+        <pin num="13" name="PB1(OC1A)" type="BiDi"/>
+        <pin num="14" name="PB2(SS/OC1B)" type="BiDi"/>
+        <pin num="15" name="PB3(MOSI/OC2)" type="BiDi"/>
+        <pin num="16" name="PB4(MISO)" type="BiDi"/>
+        <pin num="17" name="PB5(SCK)" type="BiDi"/>
+        <pin num="18" name="AVCC" type="BiDi"/>
+        <pin num="19" name="ADC6" type="BiDi"/>
+        <pin num="20" name="AREF" type="BiDi"/>
+        <pin num="21" name="GND" type="BiDi"/>
+        <pin num="22" name="ADC7" type="BiDi"/>
+        <pin num="23" name="PC0(ADC0)" type="BiDi"/>
+        <pin num="24" name="PC1(ADC1)" type="BiDi"/>
+        <pin num="25" name="PC2(ADC2)" type="BiDi"/>
+        <pin num="26" name="PC3(ADC3)" type="BiDi"/>
+        <pin num="27" name="PC4(ADC4/SDA)" type="BiDi"/>
+        <pin num="28" name="PC5(ADC5/SCL)" type="BiDi"/>
+        <pin num="29" name="PC6(/RESET)" type="BiDi"/>
+        <pin num="30" name="PD0(RXD)" type="BiDi"/>
+        <pin num="31" name="PD1(TXD)" type="BiDi"/>
+        <pin num="32" name="PD2(INT0)" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Optoelectronics" part="SMD-LED-CLEAR-BLUE_0603_">
+      <footprints>
+        <fp>*LED-0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-LED-CLEAR-BLUE_0603_</field>
+        <field name="MPN">19-217-BHC-ZL1M2RY-3T</field>
+        <field name="SKU">304090045</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Resistor" part="SMD-RES-1K-1%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-1K-1%-1_10W_0603_</field>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="SKU">301010298</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Resistor" part="SMD-RES-220R-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-220R-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-07220RL</field>
+        <field name="SKU">301010163</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Switch" part="SMD-SWITCH-TACTILE-SPST-NO_4P-D6.0MM_">
+      <footprints>
+        <fp>*SW4-SMD-6.0X6.0X5.0MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SMD-SWITCH-TACTILE-SPST-NO_4P-D6.0MM_</field>
+        <field name="MPN">DTSM-62K-S-V-T_R_SN431_</field>
+        <field name="SKU">311020004</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="BiDi"/>
+        <pin num="2" name="B0" type="BiDi"/>
+        <pin num="3" name="B1" type="BiDi"/>
+        <pin num="4" name="A1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="UJ2-BH-1-TH" part="UJ2-BH-1-TH">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">UJ2-BH-1-TH</field>
+        <field name="Footprint">CUI_UJ2-BH-1-TH</field>
+        <field name="Datasheet">MANUFACTURER RECOMENDATION</field>
+        <field name="Field4">1.0</field>
+        <field name="Field5">CUI INC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="SH1" name="SHIELD" type="passive"/>
+        <pin num="SH2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Barrel-Power-Connectors" part="PJ-202A">
+      <description>CONN PWR JACK 2X5.5MM KINKED PIN</description>
+      <docs>https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-202A</field>
+        <field name="Footprint">digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</field>
+        <field name="Datasheet">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="Digi-Key_PN">CP-202A-ND</field>
+        <field name="MPN">PJ-202A</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_">
+      <footprints>
+        <fp>*AVX-A*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">TANTALUM-SMD-10UF-10V-10%_AVX-A_</field>
+        <field name="MPN">TAJA106K010RNJ</field>
+        <field name="SKU">302020011</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="OPL_Connector">
+      <uri>G:\dev\Engravinator\Controller/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Connector.lib</uri>
+    </library>
+    <library logical="OPL_Crystal_Oscillator">
+      <uri>G:\dev\Engravinator\Controller/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Crystal_Oscillator.lib</uri>
+    </library>
+    <library logical="OPL_Integrated_Circuit">
+      <uri>G:\dev\Engravinator\Controller/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Integrated_Circuit.lib</uri>
+    </library>
+    <library logical="OPL_Optoelectronics">
+      <uri>G:\dev\Engravinator\Controller/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Optoelectronics.lib</uri>
+    </library>
+    <library logical="OPL_Resistor">
+      <uri>G:\dev\Engravinator\Controller/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Resistor.lib</uri>
+    </library>
+    <library logical="OPL_Switch">
+      <uri>G:\dev\Engravinator\Controller/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Switch.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="UJ2-BH-1-TH">
+      <uri>G:\dev\Engravinator\Controller/libs/CUI/UJ2-BH-1-TH/UJ2-BH-1-TH.lib</uri>
+    </library>
+    <library logical="dk_Barrel-Power-Connectors">
+      <uri>G:\dev\Engravinator\Controller/libs/digikey/digikey-symbols/dk_Barrel-Power-Connectors.lib</uri>
+    </library>
+    <library logical="tantalum-smd-10uf-10v-10%_avx-a_">
+      <uri>G:\dev\Engravinator\Controller/libs/Modified/tantalum-smd-10uf-10v-10%_avx-a_.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/PULSE">
+      <node ref="R1" pin="2"/>
+      <node ref="CN1" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U3" pin="15"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="2" name="5V">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="18"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="CN2" pin="1"/>
+      <node ref="CN4" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="J10" pin="2"/>
+      <node ref="CN11" pin="7"/>
+      <node ref="CN3" pin="1"/>
+      <node ref="CN6" pin="7"/>
+      <node ref="CN8" pin="1"/>
+      <node ref="CN9" pin="1"/>
+      <node ref="CN1" pin="2"/>
+      <node ref="CN7" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="CN11" pin="8"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="CN8" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="K1" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J10" pin="6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="CN11" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="CN6" pin="8"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="CN6" pin="2"/>
+      <node ref="CN2" pin="3"/>
+      <node ref="CN3" pin="3"/>
+      <node ref="CN4" pin="3"/>
+      <node ref="CN7" pin="3"/>
+      <node ref="J15" pin="SH2"/>
+      <node ref="J15" pin="SH1"/>
+      <node ref="J15" pin="4"/>
+      <node ref="CN9" pin="3"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U3" pin="3"/>
+      <node ref="H4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="4"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="CN1" pin="3"/>
+      <node ref="H2" pin="1"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J8" pin="4"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="4" name="/X_LIMIT">
+      <node ref="U3" pin="13"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="5" name="/Y_LIMIT">
+      <node ref="J7" pin="3"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="6" name="/START">
+      <node ref="U3" pin="25"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="7" name="/HOLD">
+      <node ref="U3" pin="24"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="8" name="/VIN_12V">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="CN6" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="CN11" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J8" pin="3"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="9" name="/Arduino Nano/D13">
+      <node ref="J10" pin="3"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="10" name="/NANO_RESET">
+      <node ref="J10" pin="5"/>
+      <node ref="U2" pin="15"/>
+      <node ref="J3" pin="3"/>
+      <node ref="C12" pin="2"/>
+      <node ref="K1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="11" name="/GRBL_ABORT">
+      <node ref="U3" pin="23"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="12" name="/Arduino Nano/D12">
+      <node ref="U3" pin="16"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="13" name="/X_DIR">
+      <node ref="CN5" pin="8"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="14" name="/STEP_EN">
+      <node ref="CN10" pin="1"/>
+      <node ref="CN5" pin="1"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="15" name="/GRBL_TX">
+      <node ref="R4" pin="1"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="16" name="/GRBL_RX">
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="17" name="/X_STEP">
+      <node ref="U3" pin="32"/>
+      <node ref="CN5" pin="7"/>
+    </net>
+    <net code="18" name="/Y_STEP">
+      <node ref="U3" pin="1"/>
+      <node ref="CN10" pin="7"/>
+    </net>
+    <net code="19" name="/Y_DIR">
+      <node ref="CN10" pin="8"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="20" name="/Arduino Nano/D4">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="21" name="/Arduino Nano/A7">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="22" name="/Arduino Nano/A6">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="23" name="/Arduino Nano/A5">
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="24" name="/Arduino Nano/A4">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="25" name="/Arduino Nano/A3">
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="26" name="/Arduino Nano/D7">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="27" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="28" name="Net-(K1-Pad2)">
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="32" name="Net-(J15-Pad1)">
+      <node ref="J15" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="34" name="Net-(J15-Pad2)">
+      <node ref="U2" pin="7"/>
+      <node ref="J15" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J15-Pad3)">
+      <node ref="U2" pin="6"/>
+      <node ref="J15" pin="3"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="37" name="Net-(C3-Pad2)">
+      <node ref="U2" pin="9"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="39" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C8-Pad2)">
+      <node ref="Y2" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="45" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="Y2" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="46" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="48" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="49" name="/Arduino Nano/USB_RX">
+      <node ref="D2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="50" name="/Arduino Nano/USB_TX">
+      <node ref="D1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="51" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="10"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="52" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="53" name="/StepDriverX/CFG1">
+      <node ref="CN5" pin="2"/>
+      <node ref="CN2" pin="2"/>
+    </net>
+    <net code="54" name="Net-(CN6-Pad6)">
+      <node ref="CN6" pin="6"/>
+      <node ref="J12" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="55" name="Net-(CN6-Pad5)">
+      <node ref="J12" pin="2"/>
+      <node ref="CN6" pin="5"/>
+      <node ref="J11" pin="2"/>
+    </net>
+    <net code="56" name="/StepDriverX/CFG3">
+      <node ref="CN4" pin="2"/>
+      <node ref="CN5" pin="4"/>
+    </net>
+    <net code="57" name="/StepDriverX/CFG2">
+      <node ref="CN3" pin="2"/>
+      <node ref="CN5" pin="3"/>
+    </net>
+    <net code="58" name="Net-(CN6-Pad4)">
+      <node ref="CN6" pin="4"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="59" name="Net-(CN6-Pad3)">
+      <node ref="CN6" pin="3"/>
+      <node ref="J12" pin="4"/>
+      <node ref="J11" pin="4"/>
+    </net>
+    <net code="60" name="Net-(CN5-Pad5)">
+      <node ref="CN5" pin="6"/>
+      <node ref="CN5" pin="5"/>
+    </net>
+    <net code="61" name="Net-(CN11-Pad6)">
+      <node ref="CN11" pin="6"/>
+      <node ref="J14" pin="1"/>
+      <node ref="J13" pin="1"/>
+    </net>
+    <net code="62" name="/StepDriverY/CFG1">
+      <node ref="CN10" pin="2"/>
+      <node ref="CN7" pin="2"/>
+    </net>
+    <net code="63" name="/StepDriverY/CFG3">
+      <node ref="CN10" pin="4"/>
+      <node ref="CN9" pin="2"/>
+    </net>
+    <net code="64" name="/StepDriverY/CFG2">
+      <node ref="CN8" pin="2"/>
+      <node ref="CN10" pin="3"/>
+    </net>
+    <net code="65" name="Net-(CN11-Pad5)">
+      <node ref="J13" pin="2"/>
+      <node ref="CN11" pin="5"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="66" name="Net-(CN11-Pad4)">
+      <node ref="J13" pin="3"/>
+      <node ref="CN11" pin="4"/>
+      <node ref="J14" pin="3"/>
+    </net>
+    <net code="67" name="Net-(CN11-Pad3)">
+      <node ref="J13" pin="4"/>
+      <node ref="J14" pin="4"/>
+      <node ref="CN11" pin="3"/>
+    </net>
+    <net code="68" name="Net-(CN10-Pad5)">
+      <node ref="CN10" pin="6"/>
+      <node ref="CN10" pin="5"/>
+    </net>
+  </nets>
+</export>

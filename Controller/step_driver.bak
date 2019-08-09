@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -233,18 +233,18 @@ Text Notes 3650 3050 0    31   ~ 0
 $Comp
 L Connector:Screw_Terminal_01x04 J?
 U 1 1 5D4D9DAD
-P 6650 2850
+P 6650 2950
 AR Path="/5D4D9DAD" Ref="J?"  Part="1" 
 AR Path="/5D4AFE00/5D4D9DAD" Ref="J11"  Part="1" 
 AR Path="/5D4C1080/5D4D9DAD" Ref="J13"  Part="1" 
-F 0 "J13" H 6730 2842 50  0000 L CNN
-F 1 "MotorTerm" H 6730 2751 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 6650 2850 50  0001 C CNN
-F 3 "~" H 6650 2850 50  0001 C CNN
-F 4 "320110143" H 6650 2850 50  0001 C CNN "SKU"
-F 5 "GS019-2.54-04P-5" H 6650 2850 50  0001 C CNN "MPN"
-	1    6650 2850
-	1    0    0    -1  
+F 0 "J13" H 6730 2942 50  0000 L CNN
+F 1 "MotorTerm" H 6730 2851 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 6650 2950 50  0001 C CNN
+F 3 "~" H 6650 2950 50  0001 C CNN
+F 4 "320110143" H 6650 2950 50  0001 C CNN "SKU"
+F 5 "GS019-2.54-04P-5" H 6650 2950 50  0001 C CNN "MPN"
+	1    6650 2950
+	1    0    0    1   
 $EndComp
 $Comp
 L OPL_Connector:DIP-BLACK-MALE-HEADER-VERT_4P-2.54_ J12
@@ -259,7 +259,7 @@ F 3 "" H 6750 3450 50  0001 C CNN
 F 4 "P125-1104A0BS116A1" H 6780 3600 20  0001 C CNN "MPN"
 F 5 "320020017" H 6780 3600 20  0001 C CNN "SKU"
 	1    6750 3450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5650 2750 6350 2750
