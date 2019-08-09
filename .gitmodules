@@ -1,0 +1,6 @@
+[submodule "Controller/libs/SeeedOPL"]
+	path = Controller/libs/SeeedOPL
+	url = https://github.com/ManiacalLabs/OPL_Kicad_Library.git
+[submodule "Controller/libs/digikey"]
+	path = Controller/libs/digikey
+	url = https://github.com/ManiacalLabs/digikey-kicad-library.git
