@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source G:\dev\Engravinator\Controller\Controller.sch)
-    (date "8/9/2019 10:24:07 PM")
+    (date "8/10/2019 9:23:45 AM")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1042,8 +1042,8 @@
       (node (ref H4) (pin 1))
       (node (ref CN11) (pin 2))
       (node (ref J6) (pin 4))
+      (node (ref J15) (pin 1))
       (node (ref CN11) (pin 8))
-      (node (ref J15) (pin 2))
       (node (ref J6) (pin 2))
       (node (ref J7) (pin 4))
       (node (ref C14) (pin 2))
@@ -1080,7 +1080,7 @@
       (node (ref J4) (pin 1))
       (node (ref U1) (pin 1))
       (node (ref C1) (pin 1))
-      (node (ref J15) (pin 1)))
+      (node (ref J15) (pin 2)))
     (net (code 10) (name 5V)
       (node (ref U3) (pin 18))
       (node (ref U3) (pin 6))
