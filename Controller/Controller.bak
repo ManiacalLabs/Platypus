@@ -535,9 +535,9 @@ Text Label 8700 3650 2    31   ~ 0
 NANO_RESET
 Wire Wire Line
 	8350 3650 8700 3650
-Text Label 4150 5000 1    31   ~ 0
-GRBL_ABORT
 Text Label 3950 5000 1    31   ~ 0
+GRBL_ABORT
+Text Label 4150 5000 1    31   ~ 0
 NANO_RESET
 Wire Wire Line
 	3950 4600 3950 5000
@@ -604,51 +604,43 @@ Interface Pins
 $Comp
 L dk_Barrel-Power-Connectors:PJ-202A J1
 U 1 1 5D545F21
-P 2250 4200
-F 0 "J1" H 2183 4425 50  0000 C CNN
-F 1 "PJ-202AH" H 2183 4334 50  0000 C CNN
-F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 2450 4400 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202ah.pdf" H 2450 4500 60  0001 L CNN
-F 4 "CP-202AH-ND" H 2450 4600 60  0001 L CNN "Digi-Key_PN"
-F 5 "PJ-202AH" H 2450 4700 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 2450 4800 60  0001 L CNN "Category"
-F 7 "Barrel - Power Connectors" H 2450 4900 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/pj-202ah.pdf" H 2450 5000 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "https://www.digikey.com/product-detail/en/cui-inc/PJ-202AH/CP-202AH-ND/408450" H 2450 5100 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 2450 5200 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 2450 5300 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2450 5400 60  0001 L CNN "Status"
-	1    2250 4200
+P 2700 4000
+F 0 "J1" H 2633 4225 50  0000 C CNN
+F 1 "PJ-202AH" H 2633 4134 50  0000 C CNN
+F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 2900 4200 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202ah.pdf" H 2900 4300 60  0001 L CNN
+F 4 "CP-202AH-ND" H 2900 4400 60  0001 L CNN "Digi-Key_PN"
+F 5 "PJ-202AH" H 2900 4500 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2900 4600 60  0001 L CNN "Category"
+F 7 "Barrel - Power Connectors" H 2900 4700 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/pj-202ah.pdf" H 2900 4800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.com/product-detail/en/cui-inc/PJ-202AH/CP-202AH-ND/408450" H 2900 4900 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 2900 5000 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 2900 5100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2900 5200 60  0001 L CNN "Status"
+	1    2700 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
 U 1 1 5D546925
-P 2350 4400
-F 0 "#PWR01" H 2350 4150 50  0001 C CNN
-F 1 "GND" V 2355 4272 50  0000 R CNN
-F 2 "" H 2350 4400 50  0001 C CNN
-F 3 "" H 2350 4400 50  0001 C CNN
-	1    2350 4400
+P 2800 4200
+F 0 "#PWR01" H 2800 3950 50  0001 C CNN
+F 1 "GND" V 2805 4072 50  0000 R CNN
+F 2 "" H 2800 4200 50  0001 C CNN
+F 3 "" H 2800 4200 50  0001 C CNN
+	1    2800 4200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2350 4300 2350 4400
-Connection ~ 2350 4400
-Text Label 2600 4200 2    31   ~ 0
+	2800 4100 2800 4200
+Connection ~ 2800 4200
+Text Label 3050 4000 2    31   ~ 0
 VIN_12V
 Wire Wire Line
-	2350 4200 2600 4200
-Wire Notes Line
-	1850 3900 2750 3900
-Wire Notes Line
-	2750 3900 2750 4500
-Wire Notes Line
-	2750 4500 1850 4500
-Wire Notes Line
-	1850 4500 1850 3900
-Text Notes 1750 3800 0    59   ~ 0
-Power In 12-24V\n(Normally 12V for Laser)
+	2800 4000 3050 4000
+Text Notes 2100 3650 0    59   ~ 0
+Power In 12V
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D584CD1
@@ -762,8 +754,6 @@ F 3 "~" H 900 2750 50  0001 C CNN
 	1    900  2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 3900 3000 4000
 $Comp
 L OPL_Optoelectronics:SMD-LED-CLEAR-BLUE_0603_ D?
 U 1 1 5D671A5F
@@ -809,4 +799,39 @@ Wire Wire Line
 Connection ~ 2700 3100
 Wire Wire Line
 	2700 3100 2950 3100
+$Comp
+L OPL_Connector:SCREW-TERMINAL-GREEN_2P-5.0_ J?
+U 1 1 5D526D9B
+P 1900 4100
+F 0 "J?" H 1842 4454 45  0000 C CNN
+F 1 "12V_TERM" H 1842 4370 45  0000 C CNN
+F 2 "OPL_Connector:H2-5.0-10.5X8.0MM" H 1900 4100 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+F 4 "320110031" H 1930 4250 20  0001 C CNN "SKU"
+	1    1900 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D52A8E4
+P 2100 4200
+F 0 "#PWR?" H 2100 3950 50  0001 C CNN
+F 1 "GND" V 2105 4072 50  0000 R CNN
+F 2 "" H 2100 4200 50  0001 C CNN
+F 3 "" H 2100 4200 50  0001 C CNN
+	1    2100 4200
+	0    -1   -1   0   
+$EndComp
+Text Label 2350 4000 2    31   ~ 0
+VIN_12V
+Wire Wire Line
+	2100 4000 2350 4000
+Wire Notes Line
+	1750 3700 3100 3700
+Wire Notes Line
+	3100 4350 1750 4350
+Wire Notes Line
+	1750 4350 1750 3700
+Wire Notes Line
+	3100 3700 3100 4350
 $EndSCHEMATC
