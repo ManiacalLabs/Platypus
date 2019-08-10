@@ -514,9 +514,9 @@ Text Label 5450 4850 1    31   ~ 0
 X_LIMIT
 Text Label 5250 4850 1    31   ~ 0
 Y_LIMIT
-Text Label 4800 4850 1    31   ~ 0
-START
 Text Label 4600 4850 1    31   ~ 0
+START
+Text Label 4800 4850 1    31   ~ 0
 HOLD
 $Comp
 L Connector:Screw_Terminal_01x04 J3
@@ -535,9 +535,9 @@ Text Label 8700 3650 2    31   ~ 0
 NANO_RESET
 Wire Wire Line
 	8350 3650 8700 3650
-Text Label 3950 5000 1    31   ~ 0
-GRBL_ABORT
 Text Label 4150 5000 1    31   ~ 0
+GRBL_ABORT
+Text Label 3950 5000 1    31   ~ 0
 NANO_RESET
 Wire Wire Line
 	3950 4600 3950 5000

@@ -514,9 +514,9 @@ Text Label 5450 4850 1    31   ~ 0
 X_LIMIT
 Text Label 5250 4850 1    31   ~ 0
 Y_LIMIT
-Text Label 4800 4850 1    31   ~ 0
-START
 Text Label 4600 4850 1    31   ~ 0
+START
+Text Label 4800 4850 1    31   ~ 0
 HOLD
 $Comp
 L Connector:Screw_Terminal_01x04 J3
