@@ -68,7 +68,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x310fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -91,9 +91,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "Fab/"))
   )
 
   (net 0 "")
@@ -1092,6 +1092,11 @@
       (net 12 /StepDriverX/CFG1))
     (pad 1 thru_hole rect (at 8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 18 /STEP_EN))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Connector:H8-2.54 (layer F.Cu) (tedit 5C380779) (tstamp 5D4CCA20)
@@ -1135,6 +1140,11 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 10 /VIN_12V))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0.1778))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Connector:H3-2.54 (layer F.Cu) (tedit 5C3806C8) (tstamp 5D4CCCA6)
@@ -1277,6 +1287,11 @@
       (net 27 /Y_STEP))
     (pad 8 thru_hole circle (at -8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 28 /Y_DIR))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Connector:H8-2.54 (layer F.Cu) (tedit 5C380779) (tstamp 5D4CC957)
@@ -1320,6 +1335,11 @@
       (net 5 5V))
     (pad 8 thru_hole circle (at -8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Optoelectronics:LED-0603 (layer F.Cu) (tedit 5BCC6B1A) (tstamp 5D4B86BF)
@@ -2372,6 +2392,11 @@
       (net 5 5V))
     (pad 20 smd rect (at 3.62458 -2.92354) (size 0.39878 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 57 "Net-(U2-Pad20)"))
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SSOP-20_5.3x7.2mm_P0.65mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module OPL_Integrated_Circuit:TQFP32-0.8-7X7MM (layer F.Cu) (tedit 5B9F3B45) (tstamp 5D4CE551)
@@ -2458,6 +2483,11 @@
       (net 47 /GRBL_TX))
     (pad 32 smd rect (at -2.79908 -4.2926 270) (size 0.5588 1.27) (layers F.Cu F.Paste F.Mask)
       (net 16 /X_STEP))
+    (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module OPL_Crystal_Oscillator:X2-SMD-5.0X3.2X1.3MM (layer F.Cu) (tedit 5BCCA2A6) (tstamp 5D4B89D8)
@@ -3678,7 +3708,7 @@
   (segment (start 203.033 46.315) (end 205.486 46.315) (width 0.25) (layer F.Cu) (net 69))
   (segment (start 201.813279 45.095279) (end 203.033 46.315) (width 0.25) (layer F.Cu) (net 69))
 
-  (zone (net 1) (net_name GND) (layer GND) (tstamp 5D4E88A0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer GND) (tstamp 5D4E91DA) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4465,7 +4495,7 @@
       )
     )
   )
-  (zone (net 5) (net_name 5V) (layer PWR) (tstamp 0) (hatch edge 0.508)
+  (zone (net 5) (net_name 5V) (layer PWR) (tstamp 5D4E91D7) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4848,7 +4878,7 @@
       )
     )
   )
-  (zone (net 10) (net_name /VIN_12V) (layer PWR) (tstamp 0) (hatch edge 0.508)
+  (zone (net 10) (net_name /VIN_12V) (layer PWR) (tstamp 5D4E91D4) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

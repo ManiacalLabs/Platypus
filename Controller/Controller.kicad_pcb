@@ -1092,6 +1092,11 @@
       (net 12 /StepDriverX/CFG1))
     (pad 1 thru_hole rect (at 8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 18 /STEP_EN))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Connector:H8-2.54 (layer F.Cu) (tedit 5C380779) (tstamp 5D4CCA20)
@@ -1135,6 +1140,11 @@
       (net 1 GND))
     (pad 1 thru_hole rect (at 8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 10 /VIN_12V))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0.1778))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Connector:H3-2.54 (layer F.Cu) (tedit 5C3806C8) (tstamp 5D4CCCA6)
@@ -1277,6 +1287,11 @@
       (net 27 /Y_STEP))
     (pad 8 thru_hole circle (at -8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 28 /Y_DIR))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Connector:H8-2.54 (layer F.Cu) (tedit 5C380779) (tstamp 5D4CC957)
@@ -1320,6 +1335,11 @@
       (net 5 5V))
     (pad 8 thru_hole circle (at -8.89 0 180) (size 1.651 1.651) (drill 0.889) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (offset (xyz 8.890000000000001 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module OPL_Optoelectronics:LED-0603 (layer F.Cu) (tedit 5BCC6B1A) (tstamp 5D4B86BF)
@@ -1440,6 +1460,11 @@
       (net 10 /VIN_12V))
     (pad 2 thru_hole rect (at 0 -3 270) (size 4.5 2) (drill oval 3.5 1) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/libs/CAD.3dshapes/CUI_PJ-202AH.step
+      (offset (xyz 0 10.668 6.477))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 -90))
+    )
   )
 
   (module TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal (layer F.Cu) (tedit 5B294F98) (tstamp 5D4B871F)
@@ -2372,6 +2397,11 @@
       (net 5 5V))
     (pad 20 smd rect (at 3.62458 -2.92354) (size 0.39878 1.4986) (layers F.Cu F.Paste F.Mask)
       (net 57 "Net-(U2-Pad20)"))
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SSOP-20_5.3x7.2mm_P0.65mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module OPL_Integrated_Circuit:TQFP32-0.8-7X7MM (layer F.Cu) (tedit 5B9F3B45) (tstamp 5D4CE551)
@@ -2458,6 +2488,11 @@
       (net 47 /GRBL_TX))
     (pad 32 smd rect (at -2.79908 -4.2926 270) (size 0.5588 1.27) (layers F.Cu F.Paste F.Mask)
       (net 16 /X_STEP))
+    (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-32_7x7mm_P0.8mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module OPL_Crystal_Oscillator:X2-SMD-5.0X3.2X1.3MM (layer F.Cu) (tedit 5BCCA2A6) (tstamp 5D4B89D8)
@@ -2578,6 +2613,11 @@
       (net 68 "Net-(J9-Pad1)"))
     (pad 2 thru_hole circle (at -2.5 0 90) (size 1.428 1.428) (drill 0.92) (layers *.Cu *.Mask)
       (net 69 "Net-(J9-Pad2)"))
+    (model ${KIPRJMOD}/libs/CAD.3dshapes/CUI_UJ2-BH-1-TH.step
+      (offset (xyz -1.27 -14.478 0.508))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module MountingHole:MountingHole_2.5mm_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 5D4E1865)
