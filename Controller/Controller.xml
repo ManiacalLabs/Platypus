@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>G:\dev\Engravinator\Controller\Controller.sch</source>
-    <date>8/8/2019 7:49:47 PM</date>
+    <date>8/13/2019 9:43:40 PM</date>
     <tool>Eeschema (5.1.2)-2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -71,23 +71,23 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <footprint>OPL_Capacitor:C1206</footprint>
       <fields>
-        <field name="MPN">TAJA106K010RNJ</field>
-        <field name="SKU">302020011</field>
+        <field name="MPN">CC1206KKX5R8BB106</field>
+        <field name="SKU">302010181</field>
       </fields>
-      <libsource lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D4CEFF0</tstamp>
     </comp>
     <comp ref="C1">
       <value>10uF</value>
-      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <footprint>OPL_Capacitor:C1206</footprint>
       <fields>
-        <field name="MPN">TAJA106K010RNJ</field>
-        <field name="SKU">302020011</field>
+        <field name="MPN">CC1206KKX5R8BB106</field>
+        <field name="SKU">302010181</field>
       </fields>
-      <libsource lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D4D028E</tstamp>
     </comp>
@@ -97,7 +97,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MPN">GS019-2.54-04P-5</field>
-        <field name="SKU">320110143</field>
+        <field name="SKU">320110118</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -152,7 +152,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MPN">GS019-2.54-04P-5</field>
-        <field name="SKU">320110143</field>
+        <field name="SKU">320110118</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -164,7 +164,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MPN">GS019-2.54-04P-5</field>
-        <field name="SKU">320110143</field>
+        <field name="SKU">320110118</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -176,7 +176,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MPN">GS019-2.54-04P-5</field>
-        <field name="SKU">320110143</field>
+        <field name="SKU">320110118</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -188,7 +188,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MPN">GS019-2.54-04P-5</field>
-        <field name="SKU">320110143</field>
+        <field name="SKU">320110118</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -260,6 +260,38 @@
       <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D5E33A3</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_BLUE</value>
+      <footprint>OPL_Optoelectronics:LED-0603</footprint>
+      <fields>
+        <field name="MPN">19-217-BHC-ZL1M2RY-3T</field>
+        <field name="SKU">304090045</field>
+      </fields>
+      <libsource lib="OPL_Optoelectronics" part="SMD-LED-CLEAR-BLUE_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D671A5F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220R</value>
+      <footprint>OPL_Resistor:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-07220RL</field>
+        <field name="SKU">301010163</field>
+      </fields>
+      <libsource lib="OPL_Resistor" part="SMD-RES-220R-5%-1_10W_0603_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D671A67</tstamp>
+    </comp>
+    <comp ref="J15">
+      <value>12V_TERM</value>
+      <footprint>OPL_Connector:H2-5.0-10.5X8.0MM</footprint>
+      <fields>
+        <field name="SKU">320110031</field>
+      </fields>
+      <libsource lib="OPL_Connector" part="SCREW-TERMINAL-GREEN_2P-5.0_" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D526D9B</tstamp>
     </comp>
     <comp ref="U3">
       <value>MCU-ATMEGA328P-AU_TQFP32_</value>
@@ -410,12 +442,12 @@
     </comp>
     <comp ref="C9">
       <value>10uF</value>
-      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A</footprint>
+      <footprint>OPL_Capacitor:C1206</footprint>
       <fields>
-        <field name="MPN">TAJA106K010RNJ</field>
-        <field name="SKU">302020011</field>
+        <field name="MPN">CC1206KKX5R8BB106</field>
+        <field name="SKU">302010181</field>
       </fields>
-      <libsource lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_" description=""/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
       <tstamp>5D4E7480</tstamp>
     </comp>
@@ -523,7 +555,7 @@
       <sheetpath names="/Arduino Nano/" tstamps="/5D499913/"/>
       <tstamp>5D50C710</tstamp>
     </comp>
-    <comp ref="J15">
+    <comp ref="J9">
       <value>UJ2-BH-1-TH</value>
       <footprint>CUI:CUI_UJ2-BH-1-TH</footprint>
       <fields>
@@ -606,7 +638,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MPN">GS019-2.54-04P-5</field>
-        <field name="SKU">320110143</field>
+        <field name="SKU">320110118</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/StepDriverX/" tstamps="/5D4AFE00/"/>
@@ -693,7 +725,7 @@
       <datasheet>~</datasheet>
       <fields>
         <field name="MPN">GS019-2.54-04P-5</field>
-        <field name="SKU">320110143</field>
+        <field name="SKU">320110118</field>
       </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/StepDriverY/" tstamps="/5D4C1080/"/>
@@ -746,6 +778,21 @@
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
         <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="CP1">
@@ -869,6 +916,20 @@
         <pin num="2" name="P$2" type="BiDi"/>
         <pin num="3" name="P$3" type="BiDi"/>
         <pin num="4" name="P$4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPL_Connector" part="SCREW-TERMINAL-GREEN_2P-5.0_">
+      <footprints>
+        <fp>*H2-5.0-10.5X8.0MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SCREW-TERMINAL-GREEN_2P-5.0_</field>
+        <field name="SKU">320110031</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
       </pins>
     </libpart>
     <libpart lib="OPL_Crystal_Oscillator" part="SMD-CRYSTAL-12MHZ-20PF-20PPM-40R_2P-5.0X3.2MM_">
@@ -1111,21 +1172,6 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="tantalum-smd-10uf-10v-10%_avx-a_" part="TANTALUM-SMD-10UF-10V-10%_AVX-A_">
-      <footprints>
-        <fp>*AVX-A*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">TANTALUM-SMD-10UF-10V-10%_AVX-A_</field>
-        <field name="MPN">TAJA106K010RNJ</field>
-        <field name="SKU">302020011</field>
-      </fields>
-      <pins>
-        <pin num="1" name="+" type="passive"/>
-        <pin num="2" name="-" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -1167,363 +1213,368 @@
     <library logical="dk_Barrel-Power-Connectors">
       <uri>G:\dev\Engravinator\Controller/libs/digikey/digikey-symbols/dk_Barrel-Power-Connectors.lib</uri>
     </library>
-    <library logical="tantalum-smd-10uf-10v-10%_avx-a_">
-      <uri>G:\dev\Engravinator\Controller/libs/Modified/tantalum-smd-10uf-10v-10%_avx-a_.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="/PULSE">
-      <node ref="R1" pin="2"/>
-      <node ref="CN1" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="U3" pin="15"/>
-      <node ref="J10" pin="4"/>
-      <node ref="J2" pin="3"/>
+    <net code="1" name="/NANO_RESET">
+      <node ref="J10" pin="5"/>
+      <node ref="K1" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="29"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J3" pin="1"/>
     </net>
-    <net code="2" name="5V">
-      <node ref="R6" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U2" pin="19"/>
-      <node ref="U3" pin="6"/>
-      <node ref="U3" pin="18"/>
-      <node ref="R5" pin="2"/>
-      <node ref="U3" pin="4"/>
-      <node ref="CN2" pin="1"/>
-      <node ref="CN4" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="J10" pin="2"/>
-      <node ref="CN11" pin="7"/>
-      <node ref="CN3" pin="1"/>
-      <node ref="CN6" pin="7"/>
-      <node ref="CN8" pin="1"/>
-      <node ref="CN9" pin="1"/>
-      <node ref="CN1" pin="2"/>
-      <node ref="CN7" pin="1"/>
+    <net code="2" name="/X_LIMIT">
+      <node ref="U3" pin="13"/>
+      <node ref="J7" pin="1"/>
     </net>
-    <net code="3" name="GND">
+    <net code="3" name="/Y_LIMIT">
+      <node ref="J7" pin="3"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="4" name="/START">
+      <node ref="J6" pin="3"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="5" name="/HOLD">
+      <node ref="J6" pin="1"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="6" name="/GRBL_ABORT">
+      <node ref="U3" pin="23"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C8" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="K1" pin="4"/>
+      <node ref="J10" pin="6"/>
+      <node ref="CN7" pin="3"/>
+      <node ref="C13" pin="2"/>
+      <node ref="CN6" pin="8"/>
+      <node ref="CN6" pin="2"/>
+      <node ref="CN3" pin="3"/>
+      <node ref="CN11" pin="2"/>
       <node ref="CN11" pin="8"/>
       <node ref="C14" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C8" pin="1"/>
       <node ref="CN8" pin="3"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="K1" pin="4"/>
-      <node ref="C6" pin="1"/>
-      <node ref="J10" pin="6"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="CN11" pin="2"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="CN6" pin="8"/>
-      <node ref="U3" pin="5"/>
-      <node ref="C5" pin="1"/>
-      <node ref="CN6" pin="2"/>
-      <node ref="CN2" pin="3"/>
-      <node ref="CN3" pin="3"/>
-      <node ref="CN4" pin="3"/>
-      <node ref="CN7" pin="3"/>
-      <node ref="J15" pin="SH2"/>
-      <node ref="J15" pin="SH1"/>
-      <node ref="J15" pin="4"/>
       <node ref="CN9" pin="3"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U3" pin="21"/>
+      <node ref="U3" pin="5"/>
       <node ref="U3" pin="3"/>
-      <node ref="H4" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="H1" pin="1"/>
-      <node ref="H3" pin="1"/>
+      <node ref="U3" pin="21"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J9" pin="SH1"/>
+      <node ref="CN4" pin="3"/>
+      <node ref="CN2" pin="3"/>
+      <node ref="J9" pin="SH2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="2"/>
       <node ref="J1" pin="3"/>
+      <node ref="J15" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="J2" pin="4"/>
       <node ref="J1" pin="2"/>
-      <node ref="R1" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J7" pin="2"/>
       <node ref="J3" pin="4"/>
       <node ref="J3" pin="2"/>
       <node ref="J6" pin="4"/>
       <node ref="J6" pin="2"/>
-      <node ref="J7" pin="4"/>
-      <node ref="J7" pin="2"/>
-      <node ref="J2" pin="4"/>
-      <node ref="J2" pin="2"/>
-      <node ref="CN1" pin="3"/>
-      <node ref="H2" pin="1"/>
-      <node ref="J8" pin="2"/>
-      <node ref="J4" pin="2"/>
+      <node ref="R1" pin="1"/>
       <node ref="J8" pin="4"/>
-      <node ref="J5" pin="2"/>
-    </net>
-    <net code="4" name="/X_LIMIT">
-      <node ref="U3" pin="13"/>
-      <node ref="J7" pin="1"/>
-    </net>
-    <net code="5" name="/Y_LIMIT">
-      <node ref="J7" pin="3"/>
-      <node ref="U3" pin="14"/>
-    </net>
-    <net code="6" name="/START">
-      <node ref="U3" pin="25"/>
-      <node ref="J6" pin="1"/>
-    </net>
-    <net code="7" name="/HOLD">
-      <node ref="U3" pin="24"/>
-      <node ref="J6" pin="3"/>
+      <node ref="J7" pin="4"/>
+      <node ref="CN1" pin="3"/>
     </net>
     <net code="8" name="/VIN_12V">
-      <node ref="J1" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="CN6" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="CN11" pin="1"/>
       <node ref="J2" pin="1"/>
-      <node ref="J8" pin="1"/>
-      <node ref="J8" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="CN6" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="CN11" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="J15" pin="2"/>
       <node ref="J4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J8" pin="3"/>
     </net>
-    <net code="9" name="/Arduino Nano/D13">
-      <node ref="J10" pin="3"/>
+    <net code="9" name="5V">
+      <node ref="U3" pin="18"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="U2" pin="19"/>
+      <node ref="R6" pin="2"/>
+      <node ref="CN3" pin="1"/>
+      <node ref="CN11" pin="7"/>
+      <node ref="CN8" pin="1"/>
+      <node ref="CN9" pin="1"/>
+      <node ref="CN7" pin="1"/>
+      <node ref="CN1" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="CN6" pin="7"/>
+      <node ref="CN4" pin="1"/>
+      <node ref="CN2" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="10" name="/PULSE">
+      <node ref="R1" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="CN1" pin="1"/>
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="11" name="Net-(D3-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="12" name="/Arduino Nano/D13">
       <node ref="U3" pin="17"/>
+      <node ref="J10" pin="3"/>
     </net>
-    <net code="10" name="/NANO_RESET">
-      <node ref="J10" pin="5"/>
-      <node ref="U2" pin="15"/>
-      <node ref="J3" pin="3"/>
-      <node ref="C12" pin="2"/>
-      <node ref="K1" pin="3"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="11" name="/GRBL_ABORT">
-      <node ref="U3" pin="23"/>
-      <node ref="J3" pin="1"/>
-    </net>
-    <net code="12" name="/Arduino Nano/D12">
-      <node ref="U3" pin="16"/>
+    <net code="13" name="/Arduino Nano/D12">
       <node ref="J10" pin="1"/>
+      <node ref="U3" pin="16"/>
     </net>
-    <net code="13" name="/X_DIR">
-      <node ref="CN5" pin="8"/>
-      <node ref="U3" pin="9"/>
-    </net>
-    <net code="14" name="/STEP_EN">
-      <node ref="CN10" pin="1"/>
-      <node ref="CN5" pin="1"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="15" name="/GRBL_TX">
+    <net code="14" name="/GRBL_TX">
       <node ref="R4" pin="1"/>
       <node ref="U3" pin="31"/>
     </net>
-    <net code="16" name="/GRBL_RX">
+    <net code="15" name="/GRBL_RX">
       <node ref="R3" pin="1"/>
       <node ref="U3" pin="30"/>
     </net>
-    <net code="17" name="/X_STEP">
+    <net code="16" name="/X_STEP">
       <node ref="U3" pin="32"/>
       <node ref="CN5" pin="7"/>
     </net>
-    <net code="18" name="/Y_STEP">
-      <node ref="U3" pin="1"/>
+    <net code="17" name="/Y_STEP">
       <node ref="CN10" pin="7"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="18" name="/X_DIR">
+      <node ref="CN5" pin="8"/>
+      <node ref="U3" pin="9"/>
     </net>
     <net code="19" name="/Y_DIR">
-      <node ref="CN10" pin="8"/>
       <node ref="U3" pin="10"/>
+      <node ref="CN10" pin="8"/>
     </net>
-    <net code="20" name="/Arduino Nano/D4">
+    <net code="20" name="/STEP_EN">
+      <node ref="CN5" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="CN10" pin="1"/>
+    </net>
+    <net code="21" name="/Arduino Nano/D4">
       <node ref="U3" pin="2"/>
     </net>
-    <net code="21" name="/Arduino Nano/A7">
+    <net code="22" name="/Arduino Nano/A7">
       <node ref="U3" pin="22"/>
     </net>
-    <net code="22" name="/Arduino Nano/A6">
+    <net code="23" name="/Arduino Nano/A6">
       <node ref="U3" pin="19"/>
     </net>
-    <net code="23" name="/Arduino Nano/A5">
+    <net code="24" name="/Arduino Nano/A5">
       <node ref="U3" pin="28"/>
     </net>
-    <net code="24" name="/Arduino Nano/A4">
+    <net code="25" name="/Arduino Nano/A4">
       <node ref="U3" pin="27"/>
     </net>
-    <net code="25" name="/Arduino Nano/A3">
+    <net code="26" name="/Arduino Nano/A3">
       <node ref="U3" pin="26"/>
     </net>
-    <net code="26" name="/Arduino Nano/D7">
+    <net code="27" name="/Arduino Nano/D7">
       <node ref="U3" pin="11"/>
-    </net>
-    <net code="27" name="Net-(K1-Pad1)">
-      <node ref="K1" pin="1"/>
     </net>
     <net code="28" name="Net-(K1-Pad2)">
       <node ref="K1" pin="2"/>
     </net>
-    <net code="29" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
+    <net code="29" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="30" name="Net-(D2-Pad1)">
       <node ref="R6" pin="1"/>
+      <node ref="D2" pin="1"/>
     </net>
-    <net code="30" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="U3" pin="20"/>
+    <net code="31" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="U2" pin="15"/>
     </net>
-    <net code="31" name="Net-(U2-Pad13)">
-      <node ref="U2" pin="13"/>
-    </net>
-    <net code="32" name="Net-(J15-Pad1)">
-      <node ref="J15" pin="1"/>
+    <net code="32" name="Net-(J9-Pad1)">
+      <node ref="J9" pin="1"/>
     </net>
     <net code="33" name="Net-(U2-Pad18)">
       <node ref="U2" pin="18"/>
     </net>
-    <net code="34" name="Net-(J15-Pad2)">
+    <net code="34" name="Net-(J9-Pad2)">
       <node ref="U2" pin="7"/>
-      <node ref="J15" pin="2"/>
+      <node ref="J9" pin="2"/>
     </net>
-    <net code="35" name="Net-(J15-Pad3)">
+    <net code="35" name="Net-(J9-Pad3)">
       <node ref="U2" pin="6"/>
-      <node ref="J15" pin="3"/>
+      <node ref="J9" pin="3"/>
     </net>
     <net code="36" name="Net-(U2-Pad16)">
       <node ref="U2" pin="16"/>
     </net>
-    <net code="37" name="Net-(C3-Pad2)">
-      <node ref="U2" pin="9"/>
+    <net code="37" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="38" name="Net-(C3-Pad2)">
       <node ref="Y1" pin="2"/>
+      <node ref="U2" pin="9"/>
       <node ref="C3" pin="2"/>
     </net>
-    <net code="38" name="Net-(U2-Pad20)">
+    <net code="39" name="Net-(U2-Pad20)">
       <node ref="U2" pin="20"/>
     </net>
-    <net code="39" name="Net-(U2-Pad17)">
+    <net code="40" name="Net-(U2-Pad17)">
       <node ref="U2" pin="17"/>
     </net>
-    <net code="40" name="Net-(U2-Pad12)">
+    <net code="41" name="Net-(U2-Pad12)">
       <node ref="U2" pin="12"/>
     </net>
-    <net code="41" name="Net-(U2-Pad14)">
+    <net code="42" name="Net-(U2-Pad14)">
       <node ref="U2" pin="14"/>
     </net>
-    <net code="42" name="Net-(U2-Pad11)">
+    <net code="43" name="Net-(U2-Pad11)">
       <node ref="U2" pin="11"/>
     </net>
-    <net code="43" name="Net-(U2-Pad1)">
+    <net code="44" name="Net-(U2-Pad1)">
       <node ref="U2" pin="1"/>
     </net>
-    <net code="44" name="Net-(C8-Pad2)">
+    <net code="45" name="Net-(C8-Pad2)">
+      <node ref="U3" pin="8"/>
       <node ref="Y2" pin="2"/>
       <node ref="C8" pin="2"/>
-      <node ref="U3" pin="8"/>
     </net>
-    <net code="45" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
+    <net code="46" name="Net-(C7-Pad1)">
       <node ref="Y2" pin="1"/>
+      <node ref="C7" pin="1"/>
       <node ref="U3" pin="7"/>
     </net>
-    <net code="46" name="Net-(U2-Pad2)">
+    <net code="47" name="Net-(U2-Pad2)">
       <node ref="U2" pin="2"/>
     </net>
-    <net code="47" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
+    <net code="48" name="Net-(C10-Pad1)">
+      <node ref="U3" pin="20"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="49" name="Net-(D1-Pad1)">
       <node ref="R5" pin="1"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="48" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="U3" pin="29"/>
-    </net>
-    <net code="49" name="/Arduino Nano/USB_RX">
-      <node ref="D2" pin="2"/>
-      <node ref="R4" pin="2"/>
+    <net code="50" name="/Arduino Nano/USB_RX">
       <node ref="U2" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D2" pin="2"/>
     </net>
-    <net code="50" name="/Arduino Nano/USB_TX">
-      <node ref="D1" pin="2"/>
-      <node ref="R3" pin="2"/>
+    <net code="51" name="/Arduino Nano/USB_TX">
       <node ref="U2" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="51" name="Net-(C5-Pad2)">
-      <node ref="U2" pin="10"/>
-      <node ref="C5" pin="2"/>
+    <net code="52" name="Net-(C5-Pad2)">
       <node ref="Y1" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="10"/>
     </net>
-    <net code="52" name="Net-(C4-Pad1)">
-      <node ref="U2" pin="5"/>
+    <net code="53" name="Net-(C4-Pad1)">
       <node ref="C4" pin="1"/>
+      <node ref="U2" pin="5"/>
     </net>
-    <net code="53" name="/StepDriverX/CFG1">
-      <node ref="CN5" pin="2"/>
+    <net code="54" name="/StepDriverX/CFG1">
       <node ref="CN2" pin="2"/>
+      <node ref="CN5" pin="2"/>
     </net>
-    <net code="54" name="Net-(CN6-Pad6)">
-      <node ref="CN6" pin="6"/>
+    <net code="55" name="Net-(CN6-Pad6)">
       <node ref="J12" pin="1"/>
       <node ref="J11" pin="1"/>
+      <node ref="CN6" pin="6"/>
     </net>
-    <net code="55" name="Net-(CN6-Pad5)">
-      <node ref="J12" pin="2"/>
+    <net code="56" name="Net-(CN6-Pad5)">
       <node ref="CN6" pin="5"/>
+      <node ref="J12" pin="2"/>
       <node ref="J11" pin="2"/>
     </net>
-    <net code="56" name="/StepDriverX/CFG3">
+    <net code="57" name="/StepDriverX/CFG3">
       <node ref="CN4" pin="2"/>
       <node ref="CN5" pin="4"/>
     </net>
-    <net code="57" name="/StepDriverX/CFG2">
+    <net code="58" name="/StepDriverX/CFG2">
       <node ref="CN3" pin="2"/>
       <node ref="CN5" pin="3"/>
     </net>
-    <net code="58" name="Net-(CN6-Pad4)">
-      <node ref="CN6" pin="4"/>
+    <net code="59" name="Net-(CN6-Pad4)">
       <node ref="J12" pin="3"/>
       <node ref="J11" pin="3"/>
+      <node ref="CN6" pin="4"/>
     </net>
-    <net code="59" name="Net-(CN6-Pad3)">
+    <net code="60" name="Net-(CN6-Pad3)">
+      <node ref="J11" pin="4"/>
       <node ref="CN6" pin="3"/>
       <node ref="J12" pin="4"/>
-      <node ref="J11" pin="4"/>
     </net>
-    <net code="60" name="Net-(CN5-Pad5)">
-      <node ref="CN5" pin="6"/>
+    <net code="61" name="Net-(CN5-Pad5)">
       <node ref="CN5" pin="5"/>
+      <node ref="CN5" pin="6"/>
     </net>
-    <net code="61" name="Net-(CN11-Pad6)">
-      <node ref="CN11" pin="6"/>
+    <net code="62" name="Net-(CN11-Pad6)">
       <node ref="J14" pin="1"/>
       <node ref="J13" pin="1"/>
+      <node ref="CN11" pin="6"/>
     </net>
-    <net code="62" name="/StepDriverY/CFG1">
+    <net code="63" name="/StepDriverY/CFG1">
       <node ref="CN10" pin="2"/>
       <node ref="CN7" pin="2"/>
     </net>
-    <net code="63" name="/StepDriverY/CFG3">
-      <node ref="CN10" pin="4"/>
+    <net code="64" name="/StepDriverY/CFG3">
       <node ref="CN9" pin="2"/>
+      <node ref="CN10" pin="4"/>
     </net>
-    <net code="64" name="/StepDriverY/CFG2">
-      <node ref="CN8" pin="2"/>
+    <net code="65" name="/StepDriverY/CFG2">
       <node ref="CN10" pin="3"/>
+      <node ref="CN8" pin="2"/>
     </net>
-    <net code="65" name="Net-(CN11-Pad5)">
+    <net code="66" name="Net-(CN11-Pad5)">
       <node ref="J13" pin="2"/>
       <node ref="CN11" pin="5"/>
       <node ref="J14" pin="2"/>
     </net>
-    <net code="66" name="Net-(CN11-Pad4)">
-      <node ref="J13" pin="3"/>
-      <node ref="CN11" pin="4"/>
+    <net code="67" name="Net-(CN11-Pad4)">
       <node ref="J14" pin="3"/>
+      <node ref="CN11" pin="4"/>
+      <node ref="J13" pin="3"/>
     </net>
-    <net code="67" name="Net-(CN11-Pad3)">
-      <node ref="J13" pin="4"/>
+    <net code="68" name="Net-(CN11-Pad3)">
       <node ref="J14" pin="4"/>
+      <node ref="J13" pin="4"/>
       <node ref="CN11" pin="3"/>
     </net>
-    <net code="68" name="Net-(CN10-Pad5)">
+    <net code="69" name="Net-(CN10-Pad5)">
       <node ref="CN10" pin="6"/>
       <node ref="CN10" pin="5"/>
     </net>

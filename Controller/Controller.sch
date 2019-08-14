@@ -19,29 +19,29 @@ S 7650 2600 700  1350
 U 5D499913
 F0 "Arduino Nano" 50
 F1 "nano.sch" 50
-F2 "D13" B R 8350 3850 39 
-F3 "D12" B L 7650 3850 39 
-F4 "D11" B L 7650 3750 39 
-F5 "D10" B L 7650 3650 39 
-F6 "D9" B L 7650 3550 39 
-F7 "D8" B L 7650 3450 39 
-F8 "D7" B L 7650 3350 39 
-F9 "D6" B L 7650 3250 39 
-F10 "D5" B L 7650 3150 39 
-F11 "D4" B L 7650 3050 39 
-F12 "D3" B L 7650 2950 39 
-F13 "D2" B L 7650 2850 39 
-F14 "A7" B R 8350 2850 39 
-F15 "A6" B R 8350 2950 39 
-F16 "A5" B R 8350 3050 39 
-F17 "A4" B R 8350 3150 39 
-F18 "A3" B R 8350 3250 39 
-F19 "A2" B R 8350 3350 39 
-F20 "A1" B R 8350 3450 39 
-F21 "A0" B R 8350 3550 39 
-F22 "TX" O L 7650 2650 39 
-F23 "RX" I L 7650 2750 39 
-F24 "RST" I R 8350 3650 39 
+F2 "D13" B R 8350 3850 39
+F3 "D12" B L 7650 3850 39
+F4 "D11" B L 7650 3750 39
+F5 "D10" B L 7650 3650 39
+F6 "D9" B L 7650 3550 39
+F7 "D8" B L 7650 3450 39
+F8 "D7" B L 7650 3350 39
+F9 "D6" B L 7650 3250 39
+F10 "D5" B L 7650 3150 39
+F11 "D4" B L 7650 3050 39
+F12 "D3" B L 7650 2950 39
+F13 "D2" B L 7650 2850 39
+F14 "A7" B R 8350 2850 39
+F15 "A6" B R 8350 2950 39
+F16 "A5" B R 8350 3050 39
+F17 "A4" B R 8350 3150 39
+F18 "A3" B R 8350 3250 39
+F19 "A2" B R 8350 3350 39
+F20 "A1" B R 8350 3450 39
+F21 "A0" B R 8350 3550 39
+F22 "TX" O L 7650 2650 39
+F23 "RX" I L 7650 2750 39
+F24 "RST" I R 8350 3650 39
 $EndSheet
 Text Label 7400 2650 0    31   ~ 0
 GRBL_TX
@@ -102,24 +102,24 @@ NoConn ~ 8350 3050
 NoConn ~ 8350 3150
 NoConn ~ 8350 3250
 $Sheet
-S 9550 2550 500  650 
+S 9550 2550 500  650
 U 5D4AFE00
 F0 "StepDriverX" 31
 F1 "step_driver.sch" 31
-F2 "ENABLE" I L 9550 2650 50 
-F3 "STEP" I L 9550 2750 50 
-F4 "DIR" I L 9550 2850 50 
-F5 "VMOT" I L 9550 3100 50 
+F2 "ENABLE" I L 9550 2650 50
+F3 "STEP" I L 9550 2750 50
+F4 "DIR" I L 9550 2850 50
+F5 "VMOT" I L 9550 3100 50
 $EndSheet
 $Sheet
-S 9550 3350 500  650 
+S 9550 3350 500  650
 U 5D4C1080
 F0 "StepDriverY" 31
 F1 "step_driver.sch" 31
-F2 "ENABLE" I L 9550 3450 50 
-F3 "STEP" I L 9550 3550 50 
-F4 "DIR" I L 9550 3650 50 
-F5 "VMOT" I L 9550 3900 50 
+F2 "ENABLE" I L 9550 3450 50
+F3 "STEP" I L 9550 3550 50
+F4 "DIR" I L 9550 3650 50
+F5 "VMOT" I L 9550 3900 50
 $EndSheet
 Text Label 9300 2650 0    31   ~ 0
 STEP_EN
@@ -155,7 +155,7 @@ F 2 "Package_TO_SOT_SMD:TO-252-2" H 2575 2650 50  0001 L CIN
 F 3 "http://file.elecfans.com/web1/M00/91/C3/pIYBAFzT9eOAVwOtACT5SwN81qY206.pdf?filename=CJ7805%28TO-252-2%29+3%25_JCET.pdf" H 2550 2750 50  0001 C CNN
 F 4 "CJ7805(TO-252-2)" H 2550 2800 50  0001 C CNN "MPN"
 	1    2550 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR02
@@ -166,7 +166,7 @@ F 1 "GND" H 2555 2927 50  0000 C CNN
 F 2 "" H 2550 3100 50  0001 C CNN
 F 3 "" H 2550 3100 50  0001 C CNN
 	1    2550 3100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 3250 2800 2    31   Input ~ 0
 5V
@@ -176,9 +176,9 @@ $Comp
 L Device:C C?
 U 1 1 5D4CEFF0
 P 2950 2950
-AR Path="/5D499913/5D4CEFF0" Ref="C?"  Part="1" 
-AR Path="/5D4AF8B7/5D4CEFF0" Ref="C?"  Part="1" 
-AR Path="/5D4CEFF0" Ref="C2"  Part="1" 
+AR Path="/5D499913/5D4CEFF0" Ref="C?"  Part="1"
+AR Path="/5D4AF8B7/5D4CEFF0" Ref="C?"  Part="1"
+AR Path="/5D4CEFF0" Ref="C2"  Part="1"
 F 0 "C2" H 3000 3050 45  0000 L CNN
 F 1 "10uF" H 3050 2950 45  0000 L CNN
 F 2 "OPL_Capacitor:C1206" H 2950 2950 50  0001 C CNN
@@ -186,15 +186,15 @@ F 3 "" H 2950 2950 50  0001 C CNN
 F 4 "CC1206KKX5R8BB106" H 2980 3100 20  0001 C CNN "MPN"
 F 5 "302010181" H 2980 3100 20  0001 C CNN "SKU"
 	1    2950 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C C?
 U 1 1 5D4D028E
 P 2150 2950
-AR Path="/5D499913/5D4D028E" Ref="C?"  Part="1" 
-AR Path="/5D4AF8B7/5D4D028E" Ref="C?"  Part="1" 
-AR Path="/5D4D028E" Ref="C1"  Part="1" 
+AR Path="/5D499913/5D4D028E" Ref="C?"  Part="1"
+AR Path="/5D4AF8B7/5D4D028E" Ref="C?"  Part="1"
+AR Path="/5D4D028E" Ref="C1"  Part="1"
 F 0 "C1" H 2200 3050 45  0000 L CNN
 F 1 "10uF" H 2250 2950 45  0000 L CNN
 F 2 "OPL_Capacitor:C1206" H 2150 2950 50  0001 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 2150 2950 50  0001 C CNN
 F 4 "CC1206KKX5R8BB106" H 2180 3100 20  0001 C CNN "MPN"
 F 5 "302010181" H 2180 3100 20  0001 C CNN "SKU"
 	1    2150 2950
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	2150 3100 2550 3100
@@ -225,10 +225,10 @@ F 0 "J8" H 5818 4267 50  0000 C CNN
 F 1 "TermAux" H 5818 4176 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 5900 3950 50  0001 C CNN
 F 3 "~" H 5900 3950 50  0001 C CNN
-F 4 "320110143" H 5900 3950 50  0001 C CNN "SKU"
+F 4 "320110118" H 5900 3950 50  0001 C CNN "SKU"
 F 5 "GS019-2.54-04P-5" H 5900 3950 50  0001 C CNN "MPN"
 	1    5900 3950
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Text Label 6350 3850 2    31   ~ 0
 VIN_12V
@@ -243,7 +243,7 @@ F 1 "GND" V 6405 3822 50  0000 R CNN
 F 2 "" H 6400 3950 50  0001 C CNN
 F 3 "" H 6400 3950 50  0001 C CNN
 	1    6400 3950
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR09
@@ -254,7 +254,7 @@ F 1 "GND" V 6405 4022 50  0000 R CNN
 F 2 "" H 6400 4150 50  0001 C CNN
 F 3 "" H 6400 4150 50  0001 C CNN
 	1    6400 4150
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6100 3850 6350 3850
@@ -276,9 +276,9 @@ $Comp
 L OPL_Resistor:SMD-RES-1K-1%-1_10W_0603_ R?
 U 1 1 5D4DCCF3
 P 7550 3950
-AR Path="/5D499913/5D4DCCF3" Ref="R?"  Part="1" 
-AR Path="/5D4AF8B7/5D4DCCF3" Ref="R?"  Part="1" 
-AR Path="/5D4DCCF3" Ref="R1"  Part="1" 
+AR Path="/5D499913/5D4DCCF3" Ref="R?"  Part="1"
+AR Path="/5D4AF8B7/5D4DCCF3" Ref="R?"  Part="1"
+AR Path="/5D4DCCF3" Ref="R1"  Part="1"
 F 0 "R1" H 7550 4124 45  0000 C CNN
 F 1 "10K" H 7550 4040 45  0000 C CNN
 F 2 "OPL_Resistor:R0603" H 7550 3950 40  0001 C CNN
@@ -286,7 +286,7 @@ F 3 "" H 7550 3950 40  0001 C CNN
 F 4 "RC0603FR-0710KL" H 7580 4100 20  0001 C CNN "MPN"
 F 5 "301010299" H 7580 4100 20  0001 C CNN "SKU"
 	1    7550 3950
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	7550 3800 7550 3750
@@ -302,7 +302,7 @@ F 1 "GND" H 7555 3927 50  0000 C CNN
 F 2 "" H 7550 4100 50  0001 C CNN
 F 3 "" H 7550 4100 50  0001 C CNN
 	1    7550 4100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 4150 3000 2    31   ~ 0
 VIN_12V
@@ -315,7 +315,7 @@ F 1 "GND" V 4205 2972 50  0000 R CNN
 F 2 "" H 4200 3100 50  0001 C CNN
 F 3 "" H 4200 3100 50  0001 C CNN
 	1    4200 3100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L power:GND #PWR05
@@ -326,7 +326,7 @@ F 1 "GND" V 4205 3172 50  0000 R CNN
 F 2 "" H 4200 3300 50  0001 C CNN
 F 3 "" H 4200 3300 50  0001 C CNN
 	1    4200 3300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	3900 3000 4150 3000
@@ -351,7 +351,7 @@ F 1 "GND" V 5305 3522 50  0000 R CNN
 F 2 "" H 5300 3650 50  0001 C CNN
 F 3 "" H 5300 3650 50  0001 C CNN
 	1    5300 3650
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	5000 3450 5250 3450
@@ -370,7 +370,7 @@ F 3 "" H 4700 3550 50  0001 C CNN
 F 4 "P125-1102A0BS116A1" H 4730 3700 20  0001 C CNN "MPN"
 F 5 "320020016" H 4730 3700 20  0001 C CNN "SKU"
 	1    4700 3550
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L OPL_Connector:DIP-BLACK-MALE-HEADER-VERT_2P-2.54_ J4
@@ -383,7 +383,7 @@ F 3 "" H 4700 2950 50  0001 C CNN
 F 4 "P125-1102A0BS116A1" H 4730 3100 20  0001 C CNN "MPN"
 F 5 "320020016" H 4730 3100 20  0001 C CNN "SKU"
 	1    4700 2950
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Wire Wire Line
 	5300 3050 5000 3050
@@ -398,7 +398,7 @@ F 1 "GND" V 5305 2922 50  0000 R CNN
 F 2 "" H 5300 3050 50  0001 C CNN
 F 3 "" H 5300 3050 50  0001 C CNN
 	1    5300 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text Label 5250 2850 2    31   ~ 0
 VIN_12V
@@ -420,7 +420,7 @@ F 2 "OPL_Connector:H3-2.54" H 6050 2900 50  0001 C CNN
 F 3 "" H 6050 2900 50  0001 C CNN
 F 4 "320020079" H 6080 3050 20  0001 C CNN "SKU"
 	1    6050 2900
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 Text Label 6550 2750 2    31   ~ 0
 PULSE
@@ -435,7 +435,7 @@ F 1 "GND" V 6455 2922 50  0000 R CNN
 F 2 "" H 6450 3050 50  0001 C CNN
 F 3 "" H 6450 3050 50  0001 C CNN
 	1    6450 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	6350 2750 6550 2750
@@ -469,10 +469,10 @@ F 0 "J2" H 3618 3417 50  0000 C CNN
 F 1 "TermLaser" H 3618 3326 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 3700 3100 50  0001 C CNN
 F 3 "~" H 3700 3100 50  0001 C CNN
-F 4 "320110143" H 3700 3100 50  0001 C CNN "SKU"
+F 4 "320110118" H 3700 3100 50  0001 C CNN "SKU"
 F 5 "GS019-2.54-04P-5" H 3700 3100 50  0001 C CNN "MPN"
 	1    3700 3100
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x04 J7
@@ -482,10 +482,10 @@ F 0 "J7" V 5350 4600 50  0000 C CNN
 F 1 "TermLimit" V 5450 4350 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 5350 4400 50  0001 C CNN
 F 3 "~" H 5350 4400 50  0001 C CNN
-F 4 "320110143" H 5350 4400 50  0001 C CNN "SKU"
+F 4 "320110118" H 5350 4400 50  0001 C CNN "SKU"
 F 5 "GS019-2.54-04P-5" H 5350 4400 50  0001 C CNN "MPN"
 	1    5350 4400
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x04 J6
@@ -495,10 +495,10 @@ F 0 "J6" V 4700 4600 50  0000 C CNN
 F 1 "TermControl" V 4800 4350 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 4700 4400 50  0001 C CNN
 F 3 "~" H 4700 4400 50  0001 C CNN
-F 4 "320110143" H 4700 4400 50  0001 C CNN "SKU"
+F 4 "320110118" H 4700 4400 50  0001 C CNN "SKU"
 F 5 "GS019-2.54-04P-5" H 4700 4400 50  0001 C CNN "MPN"
 	1    4700 4400
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 Text Label 5450 4850 1    31   ~ 0
 X_LIMIT
@@ -516,10 +516,10 @@ F 0 "J3" V 4050 4600 50  0000 C CNN
 F 1 "TermStop" V 4150 4350 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-4-2.54_1x04_P2.54mm_Horizontal" H 4050 4400 50  0001 C CNN
 F 3 "~" H 4050 4400 50  0001 C CNN
-F 4 "320110143" H 4050 4400 50  0001 C CNN "SKU"
+F 4 "320110118" H 4050 4400 50  0001 C CNN "SKU"
 F 5 "GS019-2.54-04P-5" H 4050 4400 50  0001 C CNN "MPN"
 	1    4050 4400
-	0    1    -1   0   
+	0    1    -1   0
 $EndComp
 Text Label 8700 3650 2    31   ~ 0
 NANO_RESET
@@ -579,7 +579,7 @@ F 1 "GND" V 3755 4522 50  0000 R CNN
 F 2 "" H 3750 4650 50  0001 C CNN
 F 3 "" H 3750 4650 50  0001 C CNN
 	1    3750 4650
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Notes Line
 	5650 4200 5650 5050
@@ -609,7 +609,7 @@ F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 2900 5000 60  0001 L CNN "Description"
 F 11 "CUI Inc." H 2900 5100 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2900 5200 60  0001 L CNN "Status"
 	1    2700 4000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -620,7 +620,7 @@ F 1 "GND" V 2805 4072 50  0000 R CNN
 F 2 "" H 2800 4200 50  0001 C CNN
 F 3 "" H 2800 4200 50  0001 C CNN
 	1    2800 4200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	2800 4100 2800 4200
@@ -640,7 +640,7 @@ F 1 "PWR_FLAG" H 1450 2773 50  0000 C CNN
 F 2 "" H 1450 2600 50  0001 C CNN
 F 3 "~" H 1450 2600 50  0001 C CNN
 	1    1450 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Label 1450 2900 1    31   ~ 0
 VIN_12V
@@ -655,7 +655,7 @@ F 1 "Mount" H 4300 5408 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4200 5450 50  0001 C CNN
 F 3 "~" H 4200 5450 50  0001 C CNN
 	1    4200 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
@@ -666,7 +666,7 @@ F 1 "Mount" H 4700 5408 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4600 5450 50  0001 C CNN
 F 3 "~" H 4600 5450 50  0001 C CNN
 	1    4600 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
@@ -677,7 +677,7 @@ F 1 "Mount" H 5100 5408 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 5000 5450 50  0001 C CNN
 F 3 "~" H 5000 5450 50  0001 C CNN
 	1    5000 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
@@ -688,7 +688,7 @@ F 1 "Mount" H 3900 5408 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.5mm_Pad" H 3800 5450 50  0001 C CNN
 F 3 "~" H 3800 5450 50  0001 C CNN
 	1    3800 5450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR035
@@ -699,7 +699,7 @@ F 1 "GND" V 3755 5422 50  0000 R CNN
 F 2 "" H 3750 5550 50  0001 C CNN
 F 3 "" H 3750 5550 50  0001 C CNN
 	1    3750 5550
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	3750 5550 3800 5550
@@ -731,7 +731,7 @@ F 1 "Fiducial" H 985 2505 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 900 2550 50  0001 C CNN
 F 3 "~" H 900 2550 50  0001 C CNN
 	1    900  2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
@@ -742,15 +742,15 @@ F 1 "Fiducial" H 985 2705 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Dia_2mm_Outer" H 900 2750 50  0001 C CNN
 F 3 "~" H 900 2750 50  0001 C CNN
 	1    900  2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L OPL_Optoelectronics:SMD-LED-CLEAR-BLUE_0603_ D?
 U 1 1 5D671A5F
 P 2850 3250
-AR Path="/5D499913/5D671A5F" Ref="D?"  Part="1" 
-AR Path="/5D4AF8B7/5D671A5F" Ref="D?"  Part="1" 
-AR Path="/5D671A5F" Ref="D3"  Part="1" 
+AR Path="/5D499913/5D671A5F" Ref="D?"  Part="1"
+AR Path="/5D4AF8B7/5D671A5F" Ref="D?"  Part="1"
+AR Path="/5D671A5F" Ref="D3"  Part="1"
 F 0 "D3" H 2700 3200 45  0000 L CNN
 F 1 "LED_BLUE" H 2450 3350 45  0000 L CNN
 F 2 "OPL_Optoelectronics:LED-0603" H 2850 3250 50  0001 C CNN
@@ -758,15 +758,15 @@ F 3 "" H 2850 3250 50  0001 C CNN
 F 4 "19-217-BHC-ZL1M2RY-3T" H 2880 3400 20  0001 C CNN "MPN"
 F 5 "304090045" H 2880 3400 20  0001 C CNN "SKU"
 	1    2850 3250
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L OPL_Resistor:SMD-RES-220R-5%-1_10W_0603_ R?
 U 1 1 5D671A67
 P 3150 3250
-AR Path="/5D499913/5D671A67" Ref="R?"  Part="1" 
-AR Path="/5D4AF8B7/5D671A67" Ref="R?"  Part="1" 
-AR Path="/5D671A67" Ref="R7"  Part="1" 
+AR Path="/5D499913/5D671A67" Ref="R?"  Part="1"
+AR Path="/5D4AF8B7/5D671A67" Ref="R?"  Part="1"
+AR Path="/5D671A67" Ref="R7"  Part="1"
 F 0 "R7" H 3150 3424 45  0000 C CNN
 F 1 "220R" H 3150 3340 45  0000 C CNN
 F 2 "OPL_Resistor:R0603" H 3150 3336 40  0001 C CNN
@@ -774,7 +774,7 @@ F 3 "" H 3150 3250 40  0001 C CNN
 F 4 "RC0603JR-07220RL" H 3180 3400 20  0001 C CNN "MPN"
 F 5 "301010163" H 3180 3400 20  0001 C CNN "SKU"
 	1    3150 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Notes Line
 	1750 3450 3400 3450
@@ -799,7 +799,7 @@ F 2 "OPL_Connector:H2-5.0-10.5X8.0MM" H 1900 4100 50  0001 C CNN
 F 3 "" H 1900 4100 50  0001 C CNN
 F 4 "320110031" H 1930 4250 20  0001 C CNN "SKU"
 	1    1900 4100
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L power:GND #PWR0101
@@ -810,7 +810,7 @@ F 1 "GND" V 2105 4072 50  0000 R CNN
 F 2 "" H 2100 4200 50  0001 C CNN
 F 3 "" H 2100 4200 50  0001 C CNN
 	1    2100 4200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text Label 2350 4000 2    31   ~ 0
 VIN_12V
