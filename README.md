@@ -1,10 +1,10 @@
-# Engravinator
+# Platypus CNC / Laser Control Board
 
-The Engravinator is an Open Hardware laser engraver platform, designed to be robust and easy to build. It uses a combination of aluminum extrusions, commodity parts easily sourced from the 3D printer world, and 3D printed parts.
+The Platypus is an Open Hardware CNC / Laser control board for running 2-axis GRBL with a wide variety of stepper motor driver options.
 
 # Contributing
 
-This repository makes use of `git` submodules (primarily to handle KiCAD symbol and footprint libaries) and must be cloned with extra options.
+This repository makes use of `git` submodules (primarily to handle KiCAD symbol and footprint libraries) and must be cloned with extra options.
 
 Either clone the repo via:
 
