@@ -9,7 +9,7 @@ This repository makes use of `git` submodules (primarily to handle KiCAD symbol 
 Either clone the repo via:
 
 ```
-git clone --recurse-submodules git@github.com:ManiacalLabs/Engravinator.git
+git clone --recurse-submodules git@github.com:ManiacalLabs/Platypus.git
 ```
 
 Or, if you already have the repo cloned or are using a fork:
