@@ -230,8 +230,6 @@ F 5 "GS019-2.54-04P-5" H 5900 3950 50  0001 C CNN "MPN"
 	1    5900 3950
 	-1   0    0    -1  
 $EndComp
-Text Label 6350 3850 2    31   ~ 0
-VIN_12V
 Text Label 6350 4050 2    31   ~ 0
 VIN_12V
 $Comp
@@ -304,39 +302,24 @@ F 3 "" H 7550 4100 50  0001 C CNN
 	1    7550 4100
 	1    0    0    -1  
 $EndComp
-Text Label 4150 3000 2    31   ~ 0
+Text Label 4150 3300 2    31   ~ 0
 VIN_12V
 $Comp
 L power:GND #PWR04
 U 1 1 5D4DF272
-P 4200 3100
-F 0 "#PWR04" H 4200 2850 50  0001 C CNN
-F 1 "GND" V 4205 2972 50  0000 R CNN
-F 2 "" H 4200 3100 50  0001 C CNN
-F 3 "" H 4200 3100 50  0001 C CNN
-	1    4200 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5D4DF278
-P 4200 3300
-F 0 "#PWR05" H 4200 3050 50  0001 C CNN
-F 1 "GND" V 4205 3172 50  0000 R CNN
-F 2 "" H 4200 3300 50  0001 C CNN
-F 3 "" H 4200 3300 50  0001 C CNN
-	1    4200 3300
+P 4150 3200
+F 0 "#PWR04" H 4150 2950 50  0001 C CNN
+F 1 "GND" V 4155 3072 50  0000 R CNN
+F 2 "" H 4150 3200 50  0001 C CNN
+F 3 "" H 4150 3200 50  0001 C CNN
+	1    4150 3200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3900 3000 4150 3000
 Wire Wire Line
-	4200 3100 3900 3100
-Wire Wire Line
 	3900 3200 4150 3200
-Wire Wire Line
-	4200 3300 3900 3300
-Text Label 4150 3200 2    31   ~ 0
+Text Label 4150 3100 2    31   ~ 0
 PULSE
 Text Notes 5900 3500 0    59   ~ 0
 Accessory Power \n(VIN Only)
@@ -868,4 +851,12 @@ Wire Notes Line
 Wire Notes Line
 	5650 2500 5650 4000
 NoConn ~ 7650 3350
+Text GLabel 4150 3000 2    31   Input ~ 0
+5V
+Wire Wire Line
+	3900 3100 4150 3100
+Wire Wire Line
+	4150 3300 3900 3300
+Text GLabel 6350 3850 2    31   Input ~ 0
+5V
 $EndSCHEMATC
