@@ -230,8 +230,6 @@ F 5 "GS019-2.54-04P-5" H 5900 3950 50  0001 C CNN "MPN"
 	1    5900 3950
 	-1   0    0    -1  
 $EndComp
-Text Label 6350 3850 2    31   ~ 0
-VIN_12V
 Text Label 6350 4050 2    31   ~ 0
 VIN_12V
 $Comp
@@ -859,4 +857,6 @@ Wire Wire Line
 	3900 3100 4150 3100
 Wire Wire Line
 	4150 3300 3900 3300
+Text GLabel 6350 3850 2    31   Input ~ 0
+5V
 $EndSCHEMATC
