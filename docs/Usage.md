@@ -4,6 +4,13 @@ The Platypus is designed to run standard [Grbl](https://github.com/gnea/grbl/wik
 
 The documentation found here mainly exists to call out those things that are specific to the Platypus. Anything else can be found at the [Grbl Wiki](https://github.com/gnea/grbl/wiki).
 
+## Software
+
+As the Platypus uses standard Grbl you may control it with any software that supports Grbl. A lot of grbl software is pretty basic will just connect to the serial port and leave it up to you to not do anything dumb. For software with a bit more intelligence you may need some custom setup. We highly recommend checking the documentation for that software but for those below we've created some simple quick-start guides:
+
+- [LightBurn](LightBurn.md)
+- [LaserWeb](LaserWeb.md)
+
 ## Connections
 
 All necessary connections are clearly labeled on the PCB itself as seen below. Note that for `LIMITS` and `CONTROL` headers there is no polarity requirement as they are expected to be used with "Normally Open" switches.
