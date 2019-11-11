@@ -11,6 +11,14 @@ As the Platypus uses standard Grbl you may control it with any software that sup
 - [LightBurn](LightBurn.md)
 - [LaserWeb](LaserWeb.md)
 
+## Drivers
+
+On most modern operating systems will recognize the CH340 USB to UART adapter and load the drivers automatically and there's noting you need to do.
+
+If, for some reason, your system doesn't automatically recognize the device and you need to install drivers, SparkFun already has a fantastic primer on the CH340 chip and how to get it up and running:
+
+[How to Install CH340 Drivers](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/)
+
 ## Connections
 
 All necessary connections are clearly labeled on the PCB itself as seen below. Note that for `LIMITS` and `CONTROL` headers there is no polarity requirement as they are expected to be used with "Normally Open" switches.
