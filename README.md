@@ -10,6 +10,15 @@ Also, unlike other Grbl boards, the Platypus natively supports configuring Trina
 
 See the [Usage](docs/Usage.md) documentation for more details!
 
+# Specs
+
+- Integrated ATMega328p Microcontroller (no arduino needed)
+- CH340 USB to UART converter
+- Screw terminals for all connections (plus male headers for motor and laser)
+- Supports all standard StepStick-style motor drivers including TMC2100 and TMC2208
+- Only 57mm x 75mm
+- Robust USB-B connector
+
 # Contributing
 
 This repository makes use of `git` submodules (primarily to handle KiCAD symbol and footprint libraries) and must be cloned with extra options.
