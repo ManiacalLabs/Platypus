@@ -54,9 +54,19 @@ def check_config(g):
     
     print('*** CONFIG CHECK SUCCESS ***')
     
+def check_offsets(g):
+    lines = g.send('?')
+    if not lines:
+        raise Exception('Error getting offset data!')
+    if 'WPos:0.000,130.000,0.000' not in lines[0]:
+        raise Exception('EEPROM Does not contain correct WPos offset!')
+    
+    print('*** OFFSET CHECK SUCCESS ***')
+    
 
 if __name__ == '__main__':
     g = grbl()
     check_config(g)
+    check_offsets(g)
     
     
