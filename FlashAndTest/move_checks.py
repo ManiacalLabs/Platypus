@@ -1,5 +1,6 @@
 from py.grbl import grbl
 from time import sleep
+from grbl_checks import check_config, check_offsets
 
 
 MOVE_TEST = """G00 G17 G40 G21 G54
@@ -27,8 +28,11 @@ def check_move(g):
 
 if __name__ == '__main__':
     g = grbl()
+    check_config(g)
+    check_offsets(g)
     g.send('$27=8')
     g.home()
     check_move(g)
     g.send('$27=1')
+    check_config(g)
 
