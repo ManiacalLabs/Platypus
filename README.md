@@ -8,8 +8,6 @@ Unlike other Grbl boards that are just Arduino shields, the Platypus is a fully 
 
 Also, unlike other Grbl boards, the Platypus natively supports configuring Trinamic (TMC) StepStick drivers like the TMC2100 and TMC2208. Unlike normal StepStick motor drivers, the TMC variants use tri-state config pins which the Platypus provides.
 
-See the [Usage](docs/Usage.md) documentation for more details!
-
 # Specs
 
 - Integrated ATMega328p Microcontroller (no arduino needed)
@@ -18,6 +16,11 @@ See the [Usage](docs/Usage.md) documentation for more details!
 - Supports all standard StepStick-style motor drivers including TMC2100 and TMC2208
 - Only 57mm x 75mm
 - Robust USB-B connector
+
+# Important Links
+
+- [Usage](docs/Usage.md)
+- [Assembly](docs/Assembly.md)
 
 # Contributing
 
