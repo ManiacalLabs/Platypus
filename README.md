@@ -22,6 +22,10 @@ Also, unlike other Grbl boards, the Platypus natively supports configuring Trina
 - [Usage](docs/Usage.md)
 - [Assembly](docs/Assembly.md)
 
+# Dimensions
+
+![Dimensions](docs/img/dimensions.png)
+
 # Contributing
 
 This repository makes use of `git` submodules (primarily to handle KiCAD symbol and footprint libraries) and must be cloned with extra options.

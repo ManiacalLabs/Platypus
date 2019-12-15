@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
-    (drawings 129)
+    (drawings 138)
     (tracks 596)
     (zones 0)
     (modules 63)
@@ -3230,6 +3230,17 @@
     )
   )
 
+  (gr_circle (center 216.75 31.25) (end 218 32) (layer Eco1.User) (width 0.15))
+  (gr_circle (center 216.75 81.75) (end 217.5 83) (layer Eco1.User) (width 0.15))
+  (gr_circle (center 148.25 81.75) (end 149 83) (layer Eco1.User) (width 0.15))
+  (gr_circle (center 148.25 31.25) (end 149 32.5) (layer Eco1.User) (width 0.15))
+  (gr_text 3.2mm (at 141 26) (layer Eco1.User)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_line (start 144.5 28.5) (end 143 27) (layer Eco1.User) (width 0.15))
+  (gr_line (start 144 28.5) (end 144.5 28.5) (layer Eco1.User) (width 0.15) (tstamp 5DF6C398))
+  (gr_line (start 144.5 28) (end 144 28.5) (layer Eco1.User) (width 0.15))
+  (gr_line (start 144.5 28.5) (end 144.5 28) (layer Eco1.User) (width 0.15))
   (gr_text EN (at 173.736 70.612) (layer F.SilkS) (tstamp 5D798AB2)
     (effects (font (size 0.762 0.762) (thickness 0.15)))
   )
