@@ -54,11 +54,9 @@ Once you are happy with all the male headers, flip the board and solder all rema
 
 ![](img/Assembly/female_headers.jpg)
 
-For this part it is important that the four 8-pin female headers be aligned correctly. We highly recommend using the motor drivers you plan to use to do this. But, we admit this provides a bit of a chicken-or-egg problem. If your motor driver headers are not already soldered, you have some boot strapping to do.
+For this part it is important that the four 8-pin female headers be aligned correctly. We highly recommend using the (already soldered) motor drivers you plan to use to do this. 
 
-If you have a breadboard handy, use that to hold the motor driver pins while soldering. If not, before you install the female headers, flip the board and insert the motor driver male pins into the holes on the Platypus PCB, long end down. Then, while holding the Platypus in a PCB vice or similar,  place the motor driver over the short end of the pins. Solder the male pins to the motor drivers but **DO NOT** solder anything to the platypus!! Seriously, don't do that. Now you can continue.
-
-Now attach the female headers to the male headers on the motor drivers and then insert the female header pins into the front of the Platypus PCB.
+Attach the female headers to the male headers on the motor drivers and then insert the female header pins into the front of the Platypus PCB.
 
 ![](img/Assembly/006.jpg)
 
