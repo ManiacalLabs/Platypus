@@ -6,7 +6,7 @@ The Platypus is an Open Hardware CNC / Laser control board for running 2-axis GR
 
 Unlike other Grbl boards that are just Arduino shields, the Platypus is a fully integrated solution with a built-in ATMega328p microcontroller and USB UART. 
 
-Also, unlike other Grbl boards, the Platypus natively supports configuring Trinamic (TMC) StepStick drivers like the TMC2100 and TMC2208. Unlike normal StepStick motor drivers, the TMC variants use tri-state config pins which the Platypus provides.
+Also, while other Grbl boards ignore it, the Platypus natively supports configuring Trinamic (TMC) StepStick drivers like the TMC2100 and TMC2208. Unlike normal StepStick motor drivers, the TMC variants use tri-state config pins which the Platypus provides.
 
 # Specs
 
